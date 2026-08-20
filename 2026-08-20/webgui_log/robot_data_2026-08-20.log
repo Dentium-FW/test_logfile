@@ -1,0 +1,8 @@
+2026-08-20 07:19:19,724 [MainThread] [web_gui.backend.server] [INFO] Starting Hypercorn server on http://0.0.0.0:5051
+2026-08-20 07:19:19,727 [MainThread] [web_gui.backend.server] [INFO] Thread dump handler ready: kill -USR1 2737
+2026-08-20 07:19:20,858 [MainThread] [web_gui.backend.robots.core] [INFO] Polling thread started
+2026-08-20 07:19:20,883 [MainThread] [web_gui.backend.robots.core] [INFO] SSE streams started (7 new, 7 total)
+2026-08-20 07:19:20,928 [MainThread] [web_gui.backend.server] [INFO] Voice event settings ready: /home/dentium/.local/share/dentium-webgui/config/voice_event_settings.json
+2026-08-20 07:19:20,953 [MainThread] [web_gui.backend.server] [INFO] Browser music catalog ready in voice event settings: /home/dentium/.local/share/dentium-webgui/config/voice_event_settings.json
+2026-08-20 07:19:21,133 [MainThread] [web_gui.backend.robots.ops] [INFO] Direct ROS2 node ready for latency-sensitive commands
+2026-08-20 07:19:21,154 [MainThread] [web_gui.backend.robots.ops] [INFO] ROS2 callbell subscriber ready for /callbell

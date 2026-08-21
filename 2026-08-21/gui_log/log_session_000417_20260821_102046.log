@@ -1,0 +1,1013 @@
+2026-08-21 10:20:46.217 [session=000417] [INFO] [MainThread] [Logger] Session 000417 opened: /home/dentium/robot_GUIs/log/log_session_000417_20260821_102046.log
+2026-08-21 10:20:46.215 [session=000417] [INFO] [MainThread] [STARTUP] main() entered DISPLAY=':0' ROBOT_ID='robot_ec2b' DEBUG='' trace=/home/dentium/robot_GUIs/log/startup_session_000417_20260821_102046.log
+2026-08-21 10:20:46.219 [session=000417] [INFO] [MainThread] 설정 백그라운드 preload 시작
+2026-08-21 10:20:46.220 [session=000417] [INFO] [MainThread] 지도 표시 캐시 백그라운드 preload 시작
+2026-08-21 10:20:46.221 [session=000417] [INFO] [MainThread] nav2 파라미터 백그라운드 preload 시작
+2026-08-21 10:20:46.227 [session=000417] [INFO] [ThreadPoolExecutor-1_0] 설정 로드 완료: /home/dentium/robot_GUIs/app/config/setting.json
+2026-08-21 10:20:46.242 [session=000417] [INFO] [MainThread] [STACK_DUMP] freeze 시 수동 스택 덤프: kill -USR1 3298 → /home/dentium/robot_GUIs/log/manual_stack_dump/dump_session_000417_20260821_102046.log, kill -USR2 3298 → /tmp/dentium_display_stacks_3298.log
+2026-08-21 10:20:46.245 [session=000417] [INFO] [MainThread] [STARTUP] creating QApplication
+2026-08-21 10:20:46.315 [session=000417] [INFO] [MainThread] [STARTUP] QApplication created
+2026-08-21 10:20:46.394 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-ExtraLight.otf -> ['Pretendard', 'Pretendard ExtraLight']
+2026-08-21 10:20:46.398 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-ExtraBold.otf -> ['Pretendard', 'Pretendard ExtraBold']
+2026-08-21 10:20:46.402 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Bold.otf -> ['Pretendard']
+2026-08-21 10:20:46.405 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-SemiBold.otf -> ['Pretendard', 'Pretendard SemiBold']
+2026-08-21 10:20:46.414 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Thin.otf -> ['Pretendard', 'Pretendard Thin']
+2026-08-21 10:20:46.418 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Medium.otf -> ['Pretendard', 'Pretendard Medium']
+2026-08-21 10:20:46.421 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Black.otf -> ['Pretendard', 'Pretendard Black']
+2026-08-21 10:20:46.424 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Regular.otf -> ['Pretendard']
+2026-08-21 10:20:46.428 [session=000417] [INFO] [MainThread] 폰트 로드 성공: Pretendard-Light.otf -> ['Pretendard', 'Pretendard Light']
+2026-08-21 10:20:46.428 [session=000417] [INFO] [MainThread] 총 9개의 Pretendard 폰트를 로드했습니다.
+2026-08-21 10:20:46.439 [session=000417] [INFO] [MainThread] Using required font: Pretendard (resolved=Pretendard, exact=True)
+2026-08-21 10:20:46.441 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.441 [session=000417] [INFO] [MainThread] 🚀 DisplayGUI 초기화 시작
+2026-08-21 10:20:46.441 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.442 [session=000417] [INFO] [MainThread] [STARTUP] creating ViewManager
+2026-08-21 10:20:46.444 [session=000417] [INFO] [MainThread] ✓ 전체화면 강제 모드: 활성화 (ENFORCE_FULLSCREEN_MODE=True)
+2026-08-21 10:20:46.445 [session=000417] [INFO] [MainThread] ViewManager 초기화 시작 (지연 로딩 모드)
+2026-08-21 10:20:46.461 [session=000417] [INFO] [MainThread] ✓ LoadingView 생성 (즉시)
+2026-08-21 10:20:46.564 [session=000417] [INFO] [MainThread] ✓ MenuButtonLayer 생성
+2026-08-21 10:20:46.610 [session=000417] [INFO] [MainThread] ✓ ScreenMenuOverlay 생성
+2026-08-21 10:20:46.620 [session=000417] [INFO] [MainThread] ✓ ViewManager 기본 구조 생성 완료 (무거운 위젯은 지연 생성 예정)
+2026-08-21 10:20:46.635 [session=000417] [INFO] [MainThread] 전체화면 강제 모드 활성화 (운영 모드)
+2026-08-21 10:20:46.636 [session=000417] [INFO] [MainThread] 마우스 커서 숨김 적용
+2026-08-21 10:20:46.637 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.637 [session=000417] [INFO] [MainThread] 🚀 로딩 화면 표시 완료 (사용자에게 화면 노출)
+2026-08-21 10:20:46.638 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.744 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.745 [session=000417] [INFO] [MainThread] 🚀 로딩 화면 표시 완료 (사용자에게 화면 노출)
+2026-08-21 10:20:46.745 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:46.747 [session=000417] [INFO] [MainThread] [STARTUP] loading screen shown
+2026-08-21 10:20:46.748 [session=000417] [CRITICAL] [MainThread] SYSTEM STARTUP - LOGGING TEST
+2026-08-21 10:20:46.749 [session=000417] [INFO] [MainThread] Application Started
+2026-08-21 10:20:46.750 [session=000417] [INFO] [MainThread] GUI event loop watchdog started: interval=500ms, threshold=2.5s, heartbeat_file=/tmp/dentium-display.heartbeat
+2026-08-21 10:20:46.853 [session=000417] [INFO] [MainThread] ⏰ 로딩 애니메이션 우선 시작 - startup UI 생성은 전환 직전으로 지연
+2026-08-21 10:20:46.854 [session=000417] [INFO] [MainThread] ✅ startup UI 준비 완료
+2026-08-21 10:20:46.857 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:20:46.858 [session=000417] [INFO] [MainThread] ViewManager에 ModelManager 참조 설정 완료
+2026-08-21 10:20:46.859 [session=000417] [INFO] [MainThread] ViewManager에 SettingFileManager 참조 설정 완료
+2026-08-21 10:20:46.867 [session=000417] [INFO] [MainThread] REST API controller runtime initialization queued on REST worker thread
+2026-08-21 10:20:46.871 [session=000417] [INFO] [RestApiThread] [REST API] 연결 설정: robot_host=localhost, robot_id=robot_ec2b
+2026-08-21 10:20:46.875 [session=000417] [INFO] [RestApiThread] [REST API] Base URL: http://localhost:8080/robot_ec2b/
+2026-08-21 10:20:46.880 [session=000417] [INFO] [RestApiThread] [REST API] X-API-Key header enabled via X_API_KEY
+2026-08-21 10:20:46.880 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] runtime config robot_host='localhost', robot_id='robot_ec2b', base_url=http://localhost:8080/robot_ec2b/
+2026-08-21 10:20:46.881 [session=000417] [INFO] [Dummy-3] RobotPollingWorker initialized
+2026-08-21 10:20:46.885 [session=000417] [INFO] [MainThread] [MapManager] Nav2 파라미터 로드 완료: /home/dentium/robot_ws/src/navigation_pkg/params/nav2_params.yaml
+2026-08-21 10:20:46.889 [session=000417] [INFO] [MainThread]   inflation_radius=0.55m, cost_scaling_factor=3.0, robot_radius=0.22m
+2026-08-21 10:20:46.889 [session=000417] [INFO] [MainThread] [MapManager] 표시용 SLAM 지도 캐시 preload 적용: 740x613, path=/home/dentium/.local/share/dentium-webgui/data/maps/slam_display_map_cache.npz
+2026-08-21 10:20:46.888 [session=000417] [INFO] [Dummy-4] ThreadedTimerWorker initialized: ['speaker_status_poll', 'safety_bumper_alarm', 'navigation_departure_finish', 'navigation_warning_finish', 'navigation_safety', 'battery_warning_sound', 'battery_warning_startup_delay', 'volume_save', 'volume_api', 'fresh_robot_pose_timeout']
+2026-08-21 10:20:46.882 [session=000417] [INFO] [RestApiThread] [REST API] GET_MAP timeout=30000ms, retry_delay=5000ms, retry_limit=3
+2026-08-21 10:20:46.896 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_GOAL_STATUS, url=http://localhost:8080/robot_ec2b/events/goal_pose/status, timeout=None
+2026-08-21 10:20:46.898 [session=000417] [INFO] [SSE-SSE_GOAL_STATUS] [SSE_DIAG] connect attempt tag=SSE_GOAL_STATUS, reconnect=0, url=http://localhost:8080/robot_ec2b/events/goal_pose/status
+2026-08-21 10:20:46.899 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_BATTERY_CHECK, url=http://localhost:8080/robot_ec2b/events/battery/status, timeout=None
+2026-08-21 10:20:46.903 [session=000417] [INFO] [SSE-SSE_BATTERY_CHECK] [SSE_DIAG] connect attempt tag=SSE_BATTERY_CHECK, reconnect=0, url=http://localhost:8080/robot_ec2b/events/battery/status
+2026-08-21 10:20:46.904 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_BATTERY_PERCENT, url=http://localhost:8080/robot_ec2b/events/battery/percent, timeout=None
+2026-08-21 10:20:46.907 [session=000417] [INFO] [SSE-SSE_BATTERY_PERCENT] [SSE_DIAG] connect attempt tag=SSE_BATTERY_PERCENT, reconnect=0, url=http://localhost:8080/robot_ec2b/events/battery/percent
+2026-08-21 10:20:46.908 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_BATTERY_LOW_SHUTDOWN, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown, timeout=None
+2026-08-21 10:20:46.909 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=0, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:46.913 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_ROBOT_STATUS, url=http://localhost:8080/robot_ec2b/events/robot_status, timeout=None
+2026-08-21 10:20:46.923 [session=000417] [INFO] [SSE-SSE_ROBOT_STATUS] [SSE_DIAG] connect attempt tag=SSE_ROBOT_STATUS, reconnect=0, url=http://localhost:8080/robot_ec2b/events/robot_status
+2026-08-21 10:20:46.926 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_HOME_POSE, url=http://localhost:8080/robot_ec2b/events/home_pose, timeout=None
+2026-08-21 10:20:46.928 [session=000417] [INFO] [SSE-SSE_HOME_POSE] [SSE_DIAG] connect attempt tag=SSE_HOME_POSE, reconnect=0, url=http://localhost:8080/robot_ec2b/events/home_pose
+2026-08-21 10:20:46.954 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.04s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:46.955 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:46.957 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=1, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:46.975 [session=000417] [INFO] [MainThread] ViewManager에 MapManager 참조 설정 완료
+2026-08-21 10:20:46.976 [session=000417] [INFO] [MainThread] ViewManager에 ControllerManager 참조 설정 완료
+2026-08-21 10:20:46.980 [session=000417] [INFO] [SSE-SSE_BATTERY_CHECK] [SSE_DIAG] connected tag=SSE_BATTERY_CHECK, status=200, reason=OK, elapsed=0.08s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/battery/status
+2026-08-21 10:20:46.982 [session=000417] [INFO] [SSE-SSE_BATTERY_CHECK] [SSE_DIAG] event received tag=SSE_BATTERY_CHECK, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/status, data={"header": {"stamp": {"sec": 1787275246, "nanosec": 945253340}, "frame_id": ""}, "voltage": 28.608001708984375, "temperature": 0.0, "current": 0.9424999952316284, "charge": 0.0, "capacity": 17.510000228881836, "design_capacity": 15.930000305175781, "percentage": 1.0, "power_supply_status": 2, "power_supply_health": 0, "power_supply_technology": 2, "present": true, "cell_voltage": [], "cell_temperature": [], "location": "", "serial_number": ""}
+2026-08-21 10:20:47.008 [session=000417] [INFO] [SSE-SSE_HOME_POSE] [SSE_DIAG] connected tag=SSE_HOME_POSE, status=200, reason=OK, elapsed=0.08s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/home_pose
+2026-08-21 10:20:47.009 [session=000417] [INFO] [SSE-SSE_GOAL_STATUS] [SSE_DIAG] connected tag=SSE_GOAL_STATUS, status=200, reason=OK, elapsed=0.11s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/goal_pose/status
+2026-08-21 10:20:47.010 [session=000417] [INFO] [SSE-SSE_BATTERY_PERCENT] [SSE_DIAG] connected tag=SSE_BATTERY_PERCENT, status=200, reason=OK, elapsed=0.10s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/battery/percent
+2026-08-21 10:20:47.011 [session=000417] [INFO] [SSE-SSE_ROBOT_STATUS] [SSE_DIAG] connected tag=SSE_ROBOT_STATUS, status=200, reason=OK, elapsed=0.09s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/robot_status
+2026-08-21 10:20:47.012 [session=000417] [INFO] [SSE-SSE_BATTERY_PERCENT] [SSE_DIAG] event received tag=SSE_BATTERY_PERCENT, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/percent, data={"data": 100}
+2026-08-21 10:20:47.014 [session=000417] [INFO] [SSE-SSE_ROBOT_STATUS] [SSE_DIAG] event received tag=SSE_ROBOT_STATUS, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/robot_status, data={"data": "ROBOT_STANDBY"}
+2026-08-21 10:20:47.015 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
+2026-08-21 10:20:47.128 [session=000417] [INFO] [MainThread] [SafetyRos] ROS_DOMAIN_ID 환경 변수 사용: domain=3, setting=39
+2026-08-21 10:20:47.189 [session=000417] [INFO] [SSE-SSE_BATTERY_CHECK] [SSE_DIAG] event received tag=SSE_BATTERY_CHECK, count=2, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/status, data={"header": {"stamp": {"sec": 1787275247, "nanosec": 144951014}, "frame_id": ""}, "voltage": 28.60700035095215, "temperature": 0.0, "current": 0.9745000004768372, "charge": 0.0, "capacity": 17.510000228881836, "design_capacity": 15.930000305175781, "percentage": 1.0, "power_supply_status": 2, "power_supply_health": 0, "power_supply_technology": 2, "present": true, "cell_voltage": [], "cell_temperature": [], "location": "", "serial_number": ""}
+2026-08-21 10:20:47.211 [session=000417] [INFO] [SSE-SSE_BATTERY_PERCENT] [SSE_DIAG] event received tag=SSE_BATTERY_PERCENT, count=2, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/percent, data={"data": 100}
+2026-08-21 10:20:47.400 [session=000417] [INFO] [SSE-SSE_BATTERY_CHECK] [SSE_DIAG] event received tag=SSE_BATTERY_CHECK, count=3, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/status, data={"header": {"stamp": {"sec": 1787275247, "nanosec": 344599357}, "frame_id": ""}, "voltage": 28.609500885009766, "temperature": 0.0, "current": 0.934499979019165, "charge": 0.0, "capacity": 17.510000228881836, "design_capacity": 15.930000305175781, "percentage": 1.0, "power_supply_status": 2, "power_supply_health": 0, "power_supply_technology": 2, "present": true, "cell_voltage": [], "cell_temperature": [], "location": "", "serial_number": ""}
+2026-08-21 10:20:47.422 [session=000417] [INFO] [SSE-SSE_ROBOT_STATUS] [SSE_DIAG] event received tag=SSE_ROBOT_STATUS, count=2, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/robot_status, data={"data": "ROBOT_STANDBY"}
+2026-08-21 10:20:47.426 [session=000417] [INFO] [SSE-SSE_BATTERY_PERCENT] [SSE_DIAG] event received tag=SSE_BATTERY_PERCENT, count=3, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/battery/percent, data={"data": 100}
+2026-08-21 10:20:47.554 [session=000417] [INFO] [MainThread] [SafetyRos] publisher 감지: topic=/robot_ec2b/safety/left_bumper, type=std_msgs/msg/Bool, reliability=RELIABLE, durability=TRANSIENT_LOCAL, depth=1
+2026-08-21 10:20:47.565 [session=000417] [INFO] [MainThread] [SafetyRos] 구독 시작: topic=/robot_ec2b/safety/left_bumper, domain=3, qos_reliability=RELIABLE, qos_durability=TRANSIENT_LOCAL
+2026-08-21 10:20:47.566 [session=000417] [INFO] [MainThread] [SafetyRos] publisher 감지: topic=/robot_ec2b/safety/left_brake, type=std_msgs/msg/Bool, reliability=RELIABLE, durability=TRANSIENT_LOCAL, depth=1
+2026-08-21 10:20:47.569 [session=000417] [INFO] [MainThread] [SafetyRos] 구독 시작: topic=/robot_ec2b/safety/left_brake, domain=3, qos_reliability=RELIABLE, qos_durability=TRANSIENT_LOCAL
+2026-08-21 10:20:47.570 [session=000417] [INFO] [MainThread] [SafetyRos] publisher 감지: topic=/robot_ec2b/safety/right_bumper, type=std_msgs/msg/Bool, reliability=RELIABLE, durability=TRANSIENT_LOCAL, depth=1
+2026-08-21 10:20:47.573 [session=000417] [INFO] [MainThread] [SafetyRos] 구독 시작: topic=/robot_ec2b/safety/right_bumper, domain=3, qos_reliability=RELIABLE, qos_durability=TRANSIENT_LOCAL
+2026-08-21 10:20:47.575 [session=000417] [INFO] [MainThread] [SafetyRos] publisher 감지: topic=/robot_ec2b/safety/right_brake, type=std_msgs/msg/Bool, reliability=RELIABLE, durability=TRANSIENT_LOCAL, depth=1
+2026-08-21 10:20:47.577 [session=000417] [INFO] [MainThread] [SafetyRos] 구독 시작: topic=/robot_ec2b/safety/right_brake, domain=3, qos_reliability=RELIABLE, qos_durability=TRANSIENT_LOCAL
+2026-08-21 10:20:47.578 [session=000417] [INFO] [MainThread] [SafetyRos] publisher 감지: topic=/robot_ec2b/safety/emergency_button, type=std_msgs/msg/Bool, reliability=RELIABLE, durability=TRANSIENT_LOCAL, depth=1
+2026-08-21 10:20:47.581 [session=000417] [INFO] [MainThread] [SafetyRos] 구독 시작: topic=/robot_ec2b/safety/emergency_button, domain=3, qos_reliability=RELIABLE, qos_durability=TRANSIENT_LOCAL
+2026-08-21 10:20:47.588 [session=000417] [INFO] [SafetyRosSpin] [SAFETY_BUMPER] ROS2 범퍼 해제: side=left, pressed=False, topic=/robot_ec2b/safety/left_bumper
+2026-08-21 10:20:47.589 [session=000417] [INFO] [SafetyRosSpin] [SAFETY_BUMPER] ROS2 범퍼 해제: side=right, pressed=False, topic=/robot_ec2b/safety/right_bumper
+2026-08-21 10:20:47.591 [session=000417] [INFO] [SafetyRosSpin] [SAFETY_EMC] ROS2 EMC 상태: active=False, topic=/robot_ec2b/safety/emergency_button
+2026-08-21 10:20:47.615 [session=000417] [INFO] [MainThread] 배경 음악 API 조회 실패 - 파일 fallback 적용: operation=selection_get, track=sha256:544a37fae858ebe055345cd7ff56af4c8593d043a4aedaa3ba8ca8ba64cffdcf
+2026-08-21 10:20:47.616 [session=000417] [WARNING] [MainThread] 배경 음악 Master 조회 생략 - 로컬 fallback 확인: operation=selection_get, reason=api_not_ready, applied=True
+2026-08-21 10:20:47.621 [session=000417] [INFO] [MainThread] 배경 음악 API 조회 실패 - 파일 fallback 적용: operation=resolved_get, track=sha256:544a37fae858ebe055345cd7ff56af4c8593d043a4aedaa3ba8ca8ba64cffdcf
+2026-08-21 10:20:47.621 [session=000417] [WARNING] [MainThread] 배경 음악 Master 조회 생략 - 로컬 fallback 확인: operation=resolved_get, reason=api_not_ready, applied=True
+2026-08-21 10:20:47.623 [session=000417] [INFO] [MainThread] 키보드 UI 초기화 완료 (키 레이아웃은 첫 표시 시 생성)
+2026-08-21 10:20:47.626 [session=000417] [INFO] [MainThread] *** VirtualKeyboard 객체 생성 완료 (부모 위젯 설정됨) ***
+2026-08-21 10:20:47.628 [session=000417] [DEBUG] [MainThread] [LockByTouch] LockByTouch 초기화 완료
+2026-08-21 10:20:47.629 [session=000417] [INFO] [MainThread] [LockByTouch] Idle timeout disabled
+2026-08-21 10:20:47.636 [session=000417] [INFO] [MainThread] 🚀 로딩 화면 표시 - 초기화 시작
+2026-08-21 10:20:47.654 [session=000417] [INFO] [MainThread] REST API controller ready
+2026-08-21 10:20:47.657 [session=000417] [INFO] [MainThread] [SAFETY_BUMPER] GUI 범퍼 상태 적용: side=left, pressed=False, left=False, right=False, alarm_active=False, alarm_timer_active=False, sound_manager_ready=False
+2026-08-21 10:20:47.657 [session=000417] [INFO] [MainThread] ⏳ MovingRelatedView 지연 생성 시작
+2026-08-21 10:20:47.769 [session=000417] [INFO] [MainThread] ✓ MovingRelatedView 생성 완료
+2026-08-21 10:20:47.770 [session=000417] [INFO] [MainThread] [SAFETY_BUMPER] GUI 범퍼 상태 적용: side=right, pressed=False, left=False, right=False, alarm_active=False, alarm_timer_active=False, sound_manager_ready=False
+2026-08-21 10:20:47.779 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 1% (완료:0%, 시간:1%, 0/4)
+2026-08-21 10:20:47.780 [session=000417] [INFO] [MainThread] 🔗 시그널 연결 시작
+2026-08-21 10:20:47.786 [session=000417] [INFO] [MainThread] 최신 배터리 SSE 캐시 동기화: display_percent=100
+2026-08-21 10:20:47.788 [session=000417] [INFO] [MainThread] 최신 배터리 퍼센트 SSE 캐시 동기화: display_percent=100
+2026-08-21 10:20:47.793 [session=000417] [INFO] [MainThread] [SAFETY_BUMPER] GUI 범퍼 상태 적용: side=left, pressed=False, left=False, right=False, alarm_active=False, alarm_timer_active=False, sound_manager_ready=False
+2026-08-21 10:20:47.803 [session=000417] [INFO] [MainThread] [SAFETY_BUMPER] GUI 범퍼 상태 적용: side=right, pressed=False, left=False, right=False, alarm_active=False, alarm_timer_active=False, sound_manager_ready=False
+2026-08-21 10:20:47.815 [session=000417] [INFO] [MainThread] ScreenContentHost 비활성화 - SlamPanel/SlamController 초기화 생략
+2026-08-21 10:20:47.816 [session=000417] [INFO] [MainThread] MapManager map_changed를 지연 표시 지도 갱신 핸들러에 연결
+2026-08-21 10:20:47.817 [session=000417] [INFO] [MainThread] relocalization_status SSE를 상태/브레이크 해제 핸들러에 연결 완료
+2026-08-21 10:20:47.817 [session=000417] [INFO] [MainThread] 지도/자동 탐색 시그널 연결 완료
+2026-08-21 10:20:48.013 [session=000417] [INFO] [SSE-SSE_ROBOT_STATUS] [SSE_DIAG] event received tag=SSE_ROBOT_STATUS, count=3, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/robot_status, data={"data": "ROBOT_STANDBY"}
+2026-08-21 10:20:48.029 [session=000417] [INFO] [MainThread] ✅ 시그널 연결 완료
+2026-08-21 10:20:48.029 [session=000417] [INFO] [MainThread] 시작 문제 진단 에러 코드 REST API 조회 시작
+2026-08-21 10:20:48.031 [session=000417] [DEBUG] [RestApiThread] GetRobotErrorCodesFromRESTAPI 요청 시작
+2026-08-21 10:20:48.031 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_ROBOT_ERROR_CODES, url: http://localhost:8080/robot_ec2b/robot/error_codes
+2026-08-21 10:20:48.034 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_ROBOT_ERROR_CODES, timeout: 30000ms
+2026-08-21 10:20:48.036 [session=000417] [INFO] [RestApiThread] [REST API] voice-event command GET 전송: url=http://127.0.0.1:5051/api/voice-event-settings/command?robot_id=robot_ec2b&language=ko&event_id=driving_warning_1
+2026-08-21 10:20:48.037 [session=000417] [INFO] [RestApiThread] [REST API] voice-event command GET 전송: url=http://127.0.0.1:5051/api/voice-event-settings/command?robot_id=robot_ec2b&language=ko&event_id=driving_warning_2
+2026-08-21 10:20:48.055 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_ROBOT_ERROR_CODES, status_code: 200
+2026-08-21 10:20:48.057 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 문제 진단 에러 코드 수신: 0개
+2026-08-21 10:20:48.065 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_VOICE_EVENT_COMMAND, status_code: 200
+2026-08-21 10:20:48.066 [session=000417] [INFO] [RestApiThread] voice-event command 비활성화 응답 수신: event_id=driving_warning_1, language=ko, response={"soundCommand": ""}
+2026-08-21 10:20:48.073 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_VOICE_EVENT_COMMAND, status_code: 200
+2026-08-21 10:20:48.073 [session=000417] [INFO] [RestApiThread] voice-event command 비활성화 응답 수신: event_id=driving_warning_2, language=ko, response={"soundCommand": ""}
+2026-08-21 10:20:48.111 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_BATTERY_PERCENT, url: http://localhost:8080/robot_ec2b/battery/percent
+2026-08-21 10:20:48.113 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_BATTERY_PERCENT, timeout: 30000ms
+2026-08-21 10:20:48.114 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, url: http://localhost:8080/robot_ec2b/safety/right_brake
+2026-08-21 10:20:48.114 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, timeout: 30000ms
+2026-08-21 10:20:48.115 [session=000417] [INFO] [MainThread] 문제 진단 에러 코드 SSE 시작
+2026-08-21 10:20:48.116 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, url: http://localhost:8080/robot_ec2b/safety/left_brake
+2026-08-21 10:20:48.116 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, timeout: 30000ms
+2026-08-21 10:20:48.118 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_ROBOT_LOCK, url: http://localhost:8080/robot_ec2b/robot_lock
+2026-08-21 10:20:48.131 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_ROBOT_LOCK, timeout: 30000ms
+2026-08-21 10:20:48.131 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_MD_SET_BREAK, url: http://localhost:8080/robot_ec2b/md/set_brake
+2026-08-21 10:20:48.134 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_MD_SET_BREAK, timeout: 30000ms
+2026-08-21 10:20:48.134 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_ROBOT_ERROR_CODES, url=http://localhost:8080/robot_ec2b/event/robot/error_codes, timeout=None
+2026-08-21 10:20:48.135 [session=000417] [INFO] [SSE-SSE_ROBOT_ERROR_CODES] [SSE_DIAG] connect attempt tag=SSE_ROBOT_ERROR_CODES, reconnect=0, url=http://localhost:8080/robot_ec2b/event/robot/error_codes
+2026-08-21 10:20:48.136 [session=000417] [INFO] [MainThread] ⚡ 시스템 초기화 시작
+2026-08-21 10:20:48.146 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_BATTERY_PERCENT, status_code: 200
+2026-08-21 10:20:48.153 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, status: 200, pending→4
+2026-08-21 10:20:48.157 [session=000417] [INFO] [MainThread] 📡 필수 데이터 요청 (destinations, robot_status, map)
+2026-08-21 10:20:48.159 [session=000417] [DEBUG] [RestApiThread] GetMapFromRESTAPI 요청 시작
+2026-08-21 10:20:48.159 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_MAP, url: http://localhost:8080/robot_ec2b/map
+2026-08-21 10:20:48.162 [session=000417] [INFO] [MainThread] ✅ 메인 초기화 완료
+2026-08-21 10:20:48.165 [session=000417] [INFO] [MainThread] 문제 진단 에러 코드 수신(REST): 0개, 표시: 0개
+2026-08-21 10:20:48.167 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_MAP, timeout: 30000ms
+2026-08-21 10:20:48.167 [session=000417] [DEBUG] [RestApiThread] 맵 데이터 요청 시작 - 타임아웃: 30000ms
+2026-08-21 10:20:48.171 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, status_code: 404
+2026-08-21 10:20:48.172 [session=000417] [ERROR] [RestApiThread] REST API 에러: status_code: 404, tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, error: Error transferring http://localhost:8080/robot_ec2b/safety/right_brake - server replied: Not Found
+2026-08-21 10:20:48.180 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, status_code: 404
+2026-08-21 10:20:48.181 [session=000417] [ERROR] [RestApiThread] REST API 에러: status_code: 404, tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, error: Error transferring http://localhost:8080/robot_ec2b/safety/left_brake - server replied: Not Found
+2026-08-21 10:20:48.186 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:20:48.188 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_ROBOT_LOCK, status_code: 200
+2026-08-21 10:20:48.188 [session=000417] [WARNING] [ThreadPoolExecutor-5_0] 로봇 잠금 응답 파싱 실패: {"topic":"/robot_lock","latest":null}
+2026-08-21 10:20:48.190 [session=000417] [INFO] [MainThread] Master Status Changed: True (My IP: 192.168.104.212, Master IP: 192.168.104.212)
+2026-08-21 10:20:48.190 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_MD_SET_BREAK, status_code: 200
+2026-08-21 10:20:48.192 [session=000417] [WARNING] [ThreadPoolExecutor-5_0] 브레이크 응답 파싱 실패: {"topic":"/md/set_brake","latest":null}
+2026-08-21 10:20:48.199 [session=000417] [INFO] [MainThread] 맵 재검증 요청: master 역할 활성화
+2026-08-21 10:20:48.200 [session=000417] [DEBUG] [RestApiThread] GetMapFromRESTAPI 요청 시작
+2026-08-21 10:20:48.200 [session=000417] [DEBUG] [RestApiThread] _get_data: 중복 요청 방지됨 - tag: REST_API_TAG.GET_MAP, pending_count: 4
+2026-08-21 10:20:48.200 [session=000417] [INFO] [MainThread] voice-event settings 스냅샷 조회 요청: master_ip=192.168.104.212, reason=initial_master_ip
+2026-08-21 10:20:48.203 [session=000417] [INFO] [MainThread] [BROWSER_MUSIC_SYNC] event=master_changed master_id=robot_ec2b master_base_url=http://127.0.0.1:5051 is_master=True master_generation=1
+2026-08-21 10:20:48.203 [session=000417] [INFO] [RestApiThread] [REST API] voice-event settings GET 전송: url=http://192.168.104.212:5051/api/voice-event-settings
+2026-08-21 10:20:48.207 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_started master_base_url=http://127.0.0.1:5051
+2026-08-21 10:20:48.221 [session=000417] [ERROR] [MainThread] API Error Handler - Tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, Status: 404, Msg: status_code: 404, tag: REST_API_TAG.GET_SAFETY_RIGHT_BRAKE, error: Error transferring http://localhost:8080/robot_ec2b/safety/right_brake - server replied: Not Found
+2026-08-21 10:20:48.223 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=selection_get, url=http://127.0.0.1:5051/api/voice-event-settings/background-music?robot_id=robot_ec2b
+2026-08-21 10:20:48.227 [session=000417] [WARNING] [MainThread] 물리 모터 브레이크 API 미지원(404) - 사이드 브레이크 인터록 비활성화: side=right
+2026-08-21 10:20:48.228 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_VOICE_EVENT_SETTINGS, status_code: 200
+2026-08-21 10:20:48.229 [session=000417] [INFO] [RestApiThread] [REST API] voice-event settings GET 성공: master_ip=192.168.104.212, response_len=3246
+2026-08-21 10:20:48.230 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=resolved_get, url=http://127.0.0.1:5051/api/voice-event-settings/resolved?robot_id=robot_ec2b
+2026-08-21 10:20:48.229 [session=000417] [INFO] [MainThread] 물리 모터 브레이크 상태 변경: side=right, engaged=False, all={'left': None, 'right': False}
+2026-08-21 10:20:48.232 [session=000417] [INFO] [MainThread] [MOTOR_SIDE_BRAKE] GUI 상태 적용: side=right, engaged=False, left=None, right=False, stop_active=False
+2026-08-21 10:20:48.233 [session=000417] [ERROR] [MainThread] API Error Handler - Tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, Status: 404, Msg: status_code: 404, tag: REST_API_TAG.GET_SAFETY_LEFT_BRAKE, error: Error transferring http://localhost:8080/robot_ec2b/safety/left_brake - server replied: Not Found
+2026-08-21 10:20:48.237 [session=000417] [WARNING] [MainThread] 물리 모터 브레이크 API 미지원(404) - 사이드 브레이크 인터록 비활성화: side=left
+2026-08-21 10:20:48.238 [session=000417] [INFO] [MainThread] 물리 모터 브레이크 상태 변경: side=left, engaged=False, all={'left': False, 'right': False}
+2026-08-21 10:20:48.238 [session=000417] [INFO] [MainThread] [MOTOR_SIDE_BRAKE] GUI 상태 적용: side=left, engaged=False, left=False, right=False, stop_active=False
+2026-08-21 10:20:48.239 [session=000417] [INFO] [MainThread] voice-event settings 메모리 상태 갱신: master_ip=192.168.104.212
+2026-08-21 10:20:48.270 [session=000417] [DEBUG] [RestApiThread] GetRobotUseFromRESTAPI 요청 시작
+2026-08-21 10:20:48.271 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_ROBOT_USE, url: http://localhost:8080/robot_ec2b/robot_use
+2026-08-21 10:20:48.272 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_ROBOT_USE, timeout: 30000ms
+2026-08-21 10:20:48.272 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:20:48.273 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:20:48.273 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:20:48.273 [session=000417] [DEBUG] [RestApiThread] GetKeepoutZoneFromRESTAPI 요청 시작
+2026-08-21 10:20:48.274 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_KEEPOUT_ZONE, url: http://localhost:8080/robot_ec2b/keepout_zone_position
+2026-08-21 10:20:48.275 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_KEEPOUT_ZONE, timeout: 30000ms
+2026-08-21 10:20:48.276 [session=000417] [DEBUG] [RestApiThread] GetPreferredAreaFromRESTAPI 요청 시작
+2026-08-21 10:20:48.276 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_PREFERRED_AREA, url: http://localhost:8080/robot_ec2b/preferred_area_position
+2026-08-21 10:20:48.278 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_PREFERRED_AREA, timeout: 30000ms
+2026-08-21 10:20:48.279 [session=000417] [DEBUG] [RestApiThread] SetVolumeToRESTAPI 직렬화된 데이터: {"data": 0.0}
+2026-08-21 10:20:48.290 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_succeeded master_base_url=http://127.0.0.1:5051 item_count=3
+2026-08-21 10:20:48.292 [session=000417] [INFO] [RestApiThread] [REST API] 볼륨 POST 전송 직전: url=http://localhost:8080/robot_ec2b/speaker/volume, payload={"data": 0.0}, timeout=30000ms
+2026-08-21 10:20:48.293 [session=000417] [INFO] [RestApiThread] [REST API] 볼륨 POST 전송 등록 완료: url=http://localhost:8080/robot_ec2b/speaker/volume, reply_id=281470415501888
+2026-08-21 10:20:48.296 [session=000417] [INFO] [RestApiThread] [REST API] 최대 속도 POST 전송 직전: url=http://localhost:8080/robot_ec2b/md/set_max_spd, payload={"data": 0.7}, timeout=30000ms, pending_before=12
+2026-08-21 10:20:48.296 [session=000417] [INFO] [RestApiThread] [REST API] 최대 속도 POST 전송 등록 완료: url=http://localhost:8080/robot_ec2b/md/set_max_spd, reply_id=281471523348544, pending_after=13
+2026-08-21 10:20:48.302 [session=000417] [DEBUG] [RestApiThread] SetMaxSpeedToRESTAPI 직렬화된 데이터: {"data": 0.7}
+2026-08-21 10:20:48.303 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_BACKGROUND_MUSIC_SETTING, status_code: 200
+2026-08-21 10:20:48.314 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=selection_get, url=http://127.0.0.1:5051/api/voice-event-settings/background-music?robot_id=robot_ec2b
+2026-08-21 10:20:48.320 [session=000417] [INFO] [RestApiThread] 배경 음악 GET 중복 요청 생략: operation=resolved_get, url=http://127.0.0.1:5051/api/voice-event-settings/resolved?robot_id=robot_ec2b
+2026-08-21 10:20:48.321 [session=000417] [INFO] [MainThread] 설정 UI 위젯 준비 대기 중 - 생성 콜백에서 UI 설정 적용 예정
+2026-08-21 10:20:48.366 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_RESOLVED_BACKGROUND_MUSIC, status_code: 200
+2026-08-21 10:20:48.435 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_BACKGROUND_MUSIC_SETTING, status_code: 200
+2026-08-21 10:20:48.677 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 10% (완료:0%, 시간:10%, 0/4)
+2026-08-21 10:20:49.678 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 20% (완료:0%, 시간:20%, 0/4)
+2026-08-21 10:20:49.956 [session=000417] [INFO] [Thread-5] [ControllerManager] 맵 처리 프로세스 warm-up 완료
+2026-08-21 10:20:50.677 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 30% (완료:0%, 시간:30%, 0/4)
+2026-08-21 10:20:51.279 [session=000417] [WARNING] [RestApiThread] _handle_response (CYCLIC 에러) - tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, status: 0, error: Operation canceled
+2026-08-21 10:20:51.280 [session=000417] [ERROR] [RestApiThread] REST API 에러: status_code: 0, tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, error: Operation canceled
+2026-08-21 10:20:51.283 [session=000417] [ERROR] [MainThread] API Error Handler - Tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, Status: 0, Msg: status_code: 0, tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, error: Operation canceled
+2026-08-21 10:20:51.284 [session=000417] [WARNING] [MainThread] Connection lost detected; popup delayed until repeated failures. failures=1/5, retry_interval=10000ms, reason=api_error tag=REST_API_TAG.GET_MASTER_IP_ADDRESS, status=0, msg=status_code: 0, tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, error: Operation canceled
+2026-08-21 10:20:51.501 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:20:51.680 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 40% (완료:0%, 시간:40%, 0/4)
+2026-08-21 10:20:52.595 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_MAP, status_code: 200
+2026-08-21 10:20:52.603 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_DESTINATIONS, status: 200, pending→10
+2026-08-21 10:20:52.610 [session=000417] [INFO] [MainThread] model_manager set_destinations: 5 items
+2026-08-21 10:20:52.610 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_ROBOT_STATUS, status: 200, pending→9
+2026-08-21 10:20:52.611 [session=000417] [INFO] [MainThread] model_manager set_destinations: updated (5 items)
+2026-08-21 10:20:52.613 [session=000417] [INFO] [MainThread] [필수] Init item complete: destinations (1/4)
+2026-08-21 10:20:52.614 [session=000417] [INFO] [MainThread] 정상 맵 응답 확인 - 새 지도 생성 보류 상태 초기화
+2026-08-21 10:20:52.614 [session=000417] [INFO] [MainThread] [ControllerManager] 맵 처리 작업 예약: seq=1, slam_mode=False
+2026-08-21 10:20:52.618 [session=000417] [INFO] [MainThread] API connection restored, timer interval reset to 1000ms (cleared failures=1)
+2026-08-21 10:20:52.618 [session=000417] [INFO] [MainThread] [필수] Init item complete: robot_status (2/4)
+2026-08-21 10:20:52.627 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_SLAM_MODE, status: 200, pending→8
+2026-08-21 10:20:52.630 [session=000417] [INFO] [MainThread] MapManager set_slam_mode: slam_mode: False
+2026-08-21 10:20:52.631 [session=000417] [INFO] [MainThread] [선택] Init item complete: slam_mode (1/5)
+2026-08-21 10:20:52.634 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_HOME_POSE, status: 200, pending→7
+2026-08-21 10:20:52.635 [session=000417] [INFO] [MainThread] 홈 위치 수신: (3.12, 1.10)
+2026-08-21 10:20:52.636 [session=000417] [INFO] [MainThread] 홈 위치 서버 값은 있으나 맵 정보가 아직 로드되지 않음 - 맵 로드 후 반영
+2026-08-21 10:20:52.637 [session=000417] [INFO] [MainThread] [선택] Init item complete: home_pose (2/5)
+2026-08-21 10:20:52.638 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_ROBOT_USE, status_code: 200
+2026-08-21 10:20:52.641 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 로봇 용도 데이터 수신: {'current': 'suction', 'usages': []}
+2026-08-21 10:20:52.642 [session=000417] [INFO] [MainThread] [REST API] 로봇 용도 데이터 수신: {'current': 'suction', 'usages': []}
+2026-08-21 10:20:52.643 [session=000417] [INFO] [MainThread] 현재 로봇 용도 업데이트: suction
+2026-08-21 10:20:52.643 [session=000417] [WARNING] [MainThread] 빈 로봇 용도 리스트 수신 - 기존/기본 용도 목록 유지
+2026-08-21 10:20:52.644 [session=000417] [INFO] [MainThread] 로봇 용도 리스트 업데이트: ['treatment', 'suction']
+2026-08-21 10:20:52.644 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:20:52.645 [session=000417] [INFO] [SSE-SSE_HOME_POSE] [SSE_DIAG] event received tag=SSE_HOME_POSE, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/home_pose, data={"header": {"stamp": {"sec": 0, "nanosec": 0}, "frame_id": "map"}, "pose": {"position": {"x": 3.1192162459935915, "y": 1.1022778576180379, "z": 0.0}, "orientation": {"x": 0.0, "y": 0.0, "z": -0.5348746418379224, "w": 0.8449314277021267}}}
+2026-08-21 10:20:52.648 [session=000417] [INFO] [MainThread] [선택] Init item complete: robot_use (3/5)
+2026-08-21 10:20:52.649 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:20:52.649 [session=000417] [DEBUG] [SSE-SSE_HOME_POSE] SSE home pose: (3.12, 1.10)
+2026-08-21 10:20:52.651 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_KEEPOUT_ZONE, status_code: 200
+2026-08-21 10:20:52.664 [session=000417] [INFO] [SSE-SSE_ROBOT_ERROR_CODES] [SSE_DIAG] connected tag=SSE_ROBOT_ERROR_CODES, status=200, reason=OK, elapsed=4.53s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/event/robot/error_codes
+2026-08-21 10:20:52.666 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 금지영역 데이터 수신: 0개
+2026-08-21 10:20:52.667 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_ROBOT_POSE, status: 200, pending→3
+2026-08-21 10:20:52.667 [session=000417] [INFO] [SSE-SSE_ROBOT_ERROR_CODES] [SSE_DIAG] event received tag=SSE_ROBOT_ERROR_CODES, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/event/robot/error_codes, data={"data": "[]"}
+2026-08-21 10:20:52.670 [session=000417] [INFO] [SSE-SSE_ROBOT_ERROR_CODES] SSE robot error codes: 0
+2026-08-21 10:20:52.671 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_PREFERRED_AREA, status_code: 200
+2026-08-21 10:20:52.672 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 선호영역 데이터 수신: 0개
+2026-08-21 10:20:52.672 [session=000417] [INFO] [MainThread] 홈 위치 수신: (3.12, 1.10)
+2026-08-21 10:20:52.673 [session=000417] [INFO] [MainThread] 홈 위치 서버 값은 있으나 맵 정보가 아직 로드되지 않음 - 맵 로드 후 반영
+2026-08-21 10:20:52.674 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:20:52.675 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:52.676 [session=000417] [INFO] [MainThread] 호출벨 목적지 아이콘 UI 갱신: 5개
+2026-08-21 10:20:52.677 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:20:52.677 [session=000417] [INFO] [MainThread] 금지영역 데이터 수신: 0개
+2026-08-21 10:20:52.677 [session=000417] [INFO] [MainThread] [MapManager] 금지영역 설정: 0개 (costmap worker 대기)
+2026-08-21 10:20:52.678 [session=000417] [INFO] [MainThread] 문제 진단 에러 코드 수신(SSE): 0개, 표시: 0개
+2026-08-21 10:20:52.678 [session=000417] [WARNING] [MainThread] [MapManager] meter_to_pixel: 맵 정보 미로드
+2026-08-21 10:20:52.680 [session=000417] [WARNING] [MainThread] [ControllerManager] 맵 정보 미로드 - 픽셀 변환 실패
+2026-08-21 10:20:52.681 [session=000417] [INFO] [MainThread] 선호영역 데이터 수신: 0개
+2026-08-21 10:20:52.681 [session=000417] [INFO] [MainThread] [MapManager] 선호영역 설정: 0개
+2026-08-21 10:20:52.692 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 50% (완료:50%, 시간:50%, 2/4)
+2026-08-21 10:20:52.693 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_VOLUME, status_code: 200
+2026-08-21 10:20:52.697 [session=000417] [INFO] [RestApiThread] [REST API] 볼륨 POST 성공: status=200, response={"ok":true,"payload":{"data":0.0}}
+2026-08-21 10:20:52.719 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_MAX_SPEED, status_code: 200
+2026-08-21 10:20:52.719 [session=000417] [INFO] [RestApiThread] [REST API] 최대 속도 POST 성공: status=200, response={"ok":true,"payload":{"data":0.7}}
+2026-08-21 10:20:52.999 [session=000417] [INFO] [MainThread] [MAP_VALUE_STATS] seq=1, route=normal_cache, requested_slam=False, current_slam=False, size=1120x822, total=920640, unknown(-1)=0 (0.00%), free(0)=905241 (98.33%), mid(1-99)=0 (0.00%), occupied(100+)=15399 (1.67%), min=0, max=100
+2026-08-21 10:20:52.999 [session=000417] [INFO] [MainThread] [MapManager] 최신 저장 지도 비동기 로드 요청: apply_prepared_map_state
+2026-08-21 10:20:53.000 [session=000417] [INFO] [MainThread] [ControllerManager] 저장 지도 비동기 처리 예약: reason=apply_prepared_map_state
+2026-08-21 10:20:53.021 [session=000417] [INFO] [MainThread] [MapManager] 확정 지도 캐시 갱신: 1120x822, 0.030m/cell, reason=map_applied
+2026-08-21 10:20:53.021 [session=000417] [INFO] [MainThread] [MapManager] 확정 지도 기준 설정: reason=map_applied
+2026-08-21 10:20:53.022 [session=000417] [INFO] [MainThread] 홈 위치 캐시 값은 있으나 지도 UI가 아직 준비되지 않음
+2026-08-21 10:20:53.022 [session=000417] [INFO] [MainThread] [필수] Init item complete: map (3/4)
+2026-08-21 10:20:53.079 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 75% (완료:75%, 시간:54%, 3/4)
+2026-08-21 10:20:54.013 [session=000417] [INFO] [MainThread] [MapManager] 확정 지도 캐시 갱신: 1120x822, 0.030m/cell, reason=map_applied
+2026-08-21 10:20:54.015 [session=000417] [INFO] [MainThread] [MapManager] 확정 지도 기준 설정: reason=map_applied
+2026-08-21 10:20:54.015 [session=000417] [INFO] [MainThread] [ControllerManager] 저장 지도 적용 완료: 1120x822
+2026-08-21 10:20:54.016 [session=000417] [INFO] [MainThread] 홈 위치 캐시 값은 있으나 지도 UI가 아직 준비되지 않음
+2026-08-21 10:20:54.476 [session=000417] [INFO] [MainThread] ⏰ 로딩 UI warm-up 시작
+2026-08-21 10:20:54.477 [session=000417] [INFO] [MainThread] ⏳ Move2DestView 지연 생성 시작
+2026-08-21 10:20:54.562 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:54.563 [session=000417] [INFO] [MainThread] DestinationTableWidget.set_destinations: 5 items
+2026-08-21 10:20:54.602 [session=000417] [WARNING] [MainThread] [PERF] DestinationTableWidget.button_batch 지연: buttons=2, index=0->2, 38.2ms
+2026-08-21 10:20:54.604 [session=000417] [WARNING] [MainThread] [PERF] DestinationTableWidget.update_buttons 첫 batch 지연: items=7, created=2, 40.3ms
+2026-08-21 10:20:54.605 [session=000417] [WARNING] [MainThread] [PERF] DestinationTableWidget.set_destinations 지연: items=5, 41.7ms, steps: buttons=41.4ms
+2026-08-21 10:20:54.615 [session=000417] [INFO] [MainThread] ✓ Move2DestView 생성 완료
+2026-08-21 10:20:54.623 [session=000417] [INFO] [MainThread] Move2DestView 지연 시그널 연결 완료
+2026-08-21 10:20:54.623 [session=000417] [WARNING] [MainThread] [PERF] Move2DestView 생성 단계 지연: 146.5ms, steps: construct=68.8ms, stack_replace=16.8ms, destinations=43.7ms, scale=8.3ms
+2026-08-21 10:20:54.624 [session=000417] [WARNING] [MainThread] [PERF] 시작 대상 뷰 생성 지연: view=1, 147.7ms
+2026-08-21 10:20:54.626 [session=000417] [INFO] [MainThread] ⏰ ViewManager 무거운 위젯 생성 시작 (틱 분산)
+2026-08-21 10:20:54.719 [session=000417] [WARNING] [MainThread] [PERF] DestinationTableWidget.button_batch 지연: buttons=2, index=2->4, 33.1ms
+2026-08-21 10:20:54.839 [session=000417] [WARNING] [MainThread] [PERF] DestinationTableWidget.button_build 전체 지연: buttons=7, 275.5ms
+2026-08-21 10:20:54.955 [session=000417] [INFO] [MainThread] ScreenContentHost 기본 구조 초기화 완료 (콘텐츠 지연 생성)
+2026-08-21 10:20:54.955 [session=000417] [INFO] [MainThread] ✓ ScreenContentHost 기본 구조 생성
+2026-08-21 10:20:54.995 [session=000417] [INFO] [MainThread] [ViewStateManager] 초기화 완료 - 초기 상태: NORMAL
+2026-08-21 10:20:54.996 [session=000417] [INFO] [MainThread] 화면형 콘텐츠 위젯들의 Custom_button에 ViewManager 참조 전달 완료
+2026-08-21 10:20:54.996 [session=000417] [INFO] [MainThread] ScreenContentHost에 ViewManager 참조 설정 완료
+2026-08-21 10:20:54.996 [session=000417] [INFO] [MainThread] ✓ ViewStateManager 생성 (중앙 집중식 화면 상태 관리)
+2026-08-21 10:20:55.073 [session=000417] [INFO] [MainThread] ✓ 전체화면 복원/최상위 재적용 기능: 비활성화
+2026-08-21 10:20:55.114 [session=000417] [INFO] [MainThread] ✅ ViewManager 무거운 위젯 생성 완료
+2026-08-21 10:20:55.225 [session=000417] [INFO] [MainThread] RobotContentWidget 초기화 완료 (하위 페이지 lazy 생성)
+2026-08-21 10:20:55.234 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:20:55.234 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:20:55.343 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 생성 단계 지연: robot_content, 126.4ms, steps: construct=7.6ms, replace_placeholder=4.9ms, fixed_scale=2.2ms, created_hooks=109.7ms
+2026-08-21 10:20:55.344 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 lazy 생성 지연: robot_content, 128.0ms
+2026-08-21 10:20:55.346 [session=000417] [WARNING] [MainThread] [PERF] 로봇 상세 설정 콘텐츠 prewarm 지연: 129.6ms
+2026-08-21 10:20:55.347 [session=000417] [INFO] [MainThread] 로봇 상세 설정 콘텐츠 idle prewarm 완료
+2026-08-21 10:20:55.384 [session=000417] [INFO] [MainThread] MapContentWidget 초기화 완료 (내부 지도/SLAM 위젯 lazy 준비) (컨테이너: 1024x536, 내부: 1024x536)
+2026-08-21 10:20:55.393 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:20:55.393 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:20:55.395 [session=000417] [INFO] [MainThread] 사이드바 지도 콘텐츠 lazy 생성 시그널 연결 완료
+2026-08-21 10:20:55.395 [session=000417] [INFO] [MainThread]   홈 위치 캐시 → 픽셀 좌표로 변환 및 UI 업데이트: (894.0, 100.9)
+2026-08-21 10:20:55.398 [session=000417] [INFO] [MainThread] 지도 콘텐츠 컨테이너 prewarm 완료: 19.7ms
+2026-08-21 10:20:55.398 [session=000417] [DEBUG] [MainThread] MapContentWidget.update_map_data() 호출: map_arrays=True, force_clear=False, 현재 인덱스=0, map_view_widget_ready=False
+2026-08-21 10:20:55.398 [session=000417] [DEBUG] [MainThread]   맵 배열 크기: 1120x822
+2026-08-21 10:20:55.415 [session=000417] [INFO] [MainThread] [slam_config] 로봇 표시 크기: 0.20m × 0.20m
+2026-08-21 10:20:55.415 [session=000417] [INFO] [MainThread] [slam_config] 센서 전방 오프셋: +180.0°
+2026-08-21 10:20:55.419 [session=000417] [INFO] [MainThread] MapContentWidget 지도 보기 위젯 lazy 생성 시작
+2026-08-21 10:20:55.565 [session=000417] [INFO] [MainThread] MapDetailWidget_Position(QGraphicsView) 초기화 완료
+2026-08-21 10:20:55.652 [session=000417] [DEBUG] [MainThread] === MapDetailWidget_Position(QGraphicsView): update_map_data 호출 ===
+2026-08-21 10:20:55.656 [session=000417] [DEBUG] [MainThread] 지도 렌더링 완료: 1120x822, refit=True
+2026-08-21 10:20:55.656 [session=000417] [INFO] [MainThread] 홈 위치 표시 업데이트: (894.0, 100.9)
+2026-08-21 10:20:55.666 [session=000417] [INFO] [MainThread] ScreenContentHost MapView 지도 위치/영역 시그널 연결 완료
+2026-08-21 10:20:55.667 [session=000417] [INFO] [MainThread] 사이드바 지도 위젯의 scan_filtered/scan_bottom_filtered 오버레이 시그널 연결 완료
+2026-08-21 10:20:55.667 [session=000417] [INFO] [MainThread] MapContentWidget 지도 보기 위젯 lazy 생성 완료
+2026-08-21 10:20:55.667 [session=000417] [WARNING] [MainThread] [PERF] 지도 보기 콘텐츠 prewarm 지연: 269.5ms
+2026-08-21 10:20:55.669 [session=000417] [WARNING] [MainThread] [PERF] 로딩 중 지도 콘텐츠 prewarm 지연: 290.7ms
+2026-08-21 10:20:55.680 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 80% (완료:75%, 시간:80%, 3/4)
+2026-08-21 10:20:55.691 [session=000417] [INFO] [MainThread] ✅ 로딩 UI warm-up 완료 (필수 UI만 준비)
+2026-08-21 10:20:55.692 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:20:55.692 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:20:55.694 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:55.694 [session=000417] [INFO] [MainThread] DestinationTableWidget.set_destinations: 5 items
+2026-08-21 10:20:55.694 [session=000417] [INFO] [MainThread] 목적지 데이터 로드 예약: 5개
+2026-08-21 10:20:55.695 [session=000417] [INFO] [MainThread] [필수] Init item complete: ui_warmup (4/4)
+2026-08-21 10:20:55.700 [session=000417] [INFO] [MainThread] 지도 콘텐츠 컨테이너 prewarm 완료: 0.0ms
+2026-08-21 10:20:55.701 [session=000417] [DEBUG] [MainThread] MapContentWidget.update_map_data() 호출: map_arrays=True, force_clear=False, 현재 인덱스=0, map_view_widget_ready=True
+2026-08-21 10:20:55.701 [session=000417] [DEBUG] [MainThread]   맵 배열 크기: 1120x822
+2026-08-21 10:20:55.701 [session=000417] [DEBUG] [MainThread] === MapDetailWidget_Position(QGraphicsView): update_map_data 호출 ===
+2026-08-21 10:20:55.708 [session=000417] [DEBUG] [MainThread] 동일 지도 데이터 - 픽스맵 재렌더링 스킵
+2026-08-21 10:20:55.708 [session=000417] [INFO] [MainThread] 지도 보기 콘텐츠 prewarm 완료: 7.1ms
+2026-08-21 10:20:55.709 [session=000417] [INFO] [MainThread] === update_map_data_to_sidebar 호출 ===
+2026-08-21 10:20:55.709 [session=000417] [INFO] [MainThread] MapManager에서 지도 데이터 가져옴: True
+2026-08-21 10:20:55.710 [session=000417] [INFO] [MainThread] 지도 데이터를 사이드바 MapContentWidget에 전달
+2026-08-21 10:20:55.710 [session=000417] [DEBUG] [MainThread] MapContentWidget.update_map_data() 호출: map_arrays=True, force_clear=False, 현재 인덱스=0, map_view_widget_ready=True
+2026-08-21 10:20:55.710 [session=000417] [DEBUG] [MainThread]   맵 배열 크기: 1120x822
+2026-08-21 10:20:55.710 [session=000417] [DEBUG] [MainThread] === MapDetailWidget_Position(QGraphicsView): update_map_data 호출 ===
+2026-08-21 10:20:55.710 [session=000417] [DEBUG] [MainThread] 동일 지도 데이터 - 픽스맵 재렌더링 스킵
+2026-08-21 10:20:55.711 [session=000417] [INFO] [MainThread] 로봇 위치를 사이드바에 업데이트: (893.1, 102.0)
+2026-08-21 10:20:55.778 [session=000417] [DEBUG] [MainThread] 📊 로딩 진행률: 95% (완료:100%, 시간:81%, 4/4)
+2026-08-21 10:20:55.779 [session=000417] [INFO] [MainThread] All initialization items complete (4/4)
+2026-08-21 10:20:56.275 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:20:56.960 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=1, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:56.973 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.01s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:56.973 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:56.975 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=2, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:20:58.075 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.078 [session=000417] [INFO] [MainThread] 🎯 로딩 타임아웃 - 화면 전환 시작
+2026-08-21 10:20:58.079 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.079 [session=000417] [INFO] [MainThread] ✓ 시작 시 바퀴 락 해제 완료
+2026-08-21 10:20:58.080 [session=000417] [DEBUG] [RestApiThread] [LockByTouch] [REST API] SendRobotLock(False)
+2026-08-21 10:20:58.080 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.082 [session=000417] [INFO] [MainThread] 📍 목적지 이동 화면으로 전환 시도
+2026-08-21 10:20:58.083 [session=000417] [INFO] [MainThread]    - 맵 로드 상태: ✓
+2026-08-21 10:20:58.090 [session=000417] [INFO] [MainThread]    - 목적지 개수: 5
+2026-08-21 10:20:58.091 [session=000417] [INFO] [MainThread]    - 로봇 상태: ROBOT_STATE_STANDBY
+2026-08-21 10:20:58.092 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.093 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.094 [session=000417] [INFO] [MainThread] ✅ 로딩 완료 - 로딩 화면 표시 후 소요 시간: 11.46초
+2026-08-21 10:20:58.094 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.140 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_ROBOT_LOCK, status_code: 200
+2026-08-21 10:20:58.149 [session=000417] [DEBUG] [ThreadPoolExecutor-5_0] 백그라운드 파싱 대상이 아닌 REST 태그: REST_API_TAG.POST_ROBOT_LOCK
+2026-08-21 10:20:58.203 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_CALLBELL_SYNC, url=http://localhost:8080/robot_ec2b/events/callbell, timeout=None
+2026-08-21 10:20:58.208 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connect attempt tag=SSE_CALLBELL_SYNC, reconnect=0, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:20:58.213 [session=000417] [INFO] [MainThread] 지연 뷰는 첫 진입 시 생성하도록 유지
+2026-08-21 10:20:58.220 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:20:58.221 [session=000417] [INFO] [MainThread] [SoundManager] sound list 백그라운드 preload 시작
+2026-08-21 10:20:58.224 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:20:58.228 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.228 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:20:58.230 [session=000417] [INFO] [MainThread] ✅ 시스템 초기화 완료 - 목적지 이동 화면 표시
+2026-08-21 10:20:58.233 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_MD_SET_BREAK, url=http://localhost:8080/robot_ec2b/events/md/set_brake, timeout=None
+2026-08-21 10:20:58.237 [session=000417] [INFO] [MainThread] ================================================================================
+2026-08-21 10:20:58.238 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connect attempt tag=SSE_MD_SET_BREAK, reconnect=0, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:20:58.239 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:20:58.241 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:20:58.261 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connected tag=SSE_CALLBELL_SYNC, status=200, reason=OK, elapsed=0.05s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:20:58.262 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] event received tag=SSE_CALLBELL_SYNC, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/callbell, data={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:20:58.262 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [CALLBELL SSE] 목록 변경 신호 감지: url=http://localhost:8080/robot_ec2b/events/callbell, raw={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:20:58.272 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connected tag=SSE_MD_SET_BREAK, status=200, reason=OK, elapsed=0.03s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:20:58.348 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:20:58.349 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:58.350 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:20:58.350 [session=000417] [INFO] [MainThread] 호출벨 목록 변경 SSE 수신 - REST API 재조회: payload={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": 
+2026-08-21 10:20:58.351 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:20:58.351 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:20:58.353 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:20:58.359 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:20:58.361 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:20:58.362 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:20:58.363 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:58.363 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:20:58.740 [session=000417] [INFO] [MainThread] 외부 안내 음성 설정 조회 요청: master_ip=192.168.104.212, robot_id=robot_ec2b, language=ko, event_id=startup_welcome
+2026-08-21 10:20:58.742 [session=000417] [INFO] [RestApiThread] [REST API] voice-event command GET 전송: url=http://192.168.104.212:5051/api/voice-event-settings/command?robot_id=robot_ec2b&language=ko&event_id=startup_welcome
+2026-08-21 10:20:58.758 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_VOICE_EVENT_COMMAND, status_code: 200
+2026-08-21 10:20:58.759 [session=000417] [INFO] [RestApiThread] voice-event command 수신: event_id=startup_welcome, language=ko, command=tts:안녕하세요.
+2026-08-21 10:20:58.761 [session=000417] [INFO] [MainThread] 스피커 idle 대기 후 사운드 명령 전송 예정: command=tts:안녕하세요., pending_count=1
+2026-08-21 10:20:58.765 [session=000417] [INFO] [MainThread] 스피커 상태 조회 API 호출: command=tts:안녕하세요., pending_count=1
+2026-08-21 10:20:58.767 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_SPEAKER_STATUS, url: http://localhost:8080/robot_ec2b/speaker/status
+2026-08-21 10:20:58.768 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_SPEAKER_STATUS, timeout: 30000ms
+2026-08-21 10:20:58.778 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_SPEAKER_STATUS, status_code: 200
+2026-08-21 10:20:58.785 [session=000417] [INFO] [MainThread] 스피커 상태 조회 응답: status=idle, command=tts:안녕하세요., pending_count=1
+2026-08-21 10:20:58.786 [session=000417] [INFO] [MainThread] 스피커 idle 확인 - 음성 재생 API 호출: command=tts:안녕하세요., remaining_count=0
+2026-08-21 10:20:58.789 [session=000417] [INFO] [MainThread] 음성 재생 API 호출 완료: command=tts:안녕하세요.
+2026-08-21 10:20:58.791 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 직전: url=http://localhost:8080/robot_ec2b/speaker/sound_command, payload={"data": "tts:\uc548\ub155\ud558\uc138\uc694."}, timeout=30000ms, pending_before=0
+2026-08-21 10:20:58.804 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 등록 완료: url=http://localhost:8080/robot_ec2b/speaker/sound_command, reply_id=281470443763456, pending_after=1
+2026-08-21 10:20:58.834 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_SOUND_COMMAND, status_code: 200
+2026-08-21 10:20:58.837 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 성공: status=200, pending→0, response={"ok":true,"payload":{"data":"tts:안녕하세요."}}
+2026-08-21 10:20:59.781 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:20:59.786 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:20:59.793 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:20:59.797 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:20:59.807 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:20:59.812 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:20:59.830 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:20:59.833 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:20:59.836 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:20:59.839 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:00.785 [session=000417] [INFO] [MainThread] 배터리 로거 초기화 완료
+2026-08-21 10:21:00.789 [session=000417] [INFO] [ThreadPoolExecutor-7_0] 배터리 로그 로드 완료: 567개 레코드
+2026-08-21 10:21:01.078 [session=000417] [INFO] [MainThread] 🔊 SoundManager 초기화 시작 (QtMultimedia worker)
+2026-08-21 10:21:01.080 [session=000417] [INFO] [MainThread] Loading sound list from: /home/dentium/robot_GUIs/app/config/sound_list.json
+2026-08-21 10:21:01.093 [session=000417] [DEBUG] [MainThread] [SoundManager] 볼륨 설정: 50%
+2026-08-21 10:21:01.096 [session=000417] [INFO] [MainThread] [SoundManager] BGM 프로세스 시작: program=/home/dentium/robot_GUIs/.venv/bin/python3, args=-u /home/dentium/robot_GUIs/app/resources/sounds/bgm_player_process.py
+2026-08-21 10:21:01.099 [session=000417] [INFO] [MainThread] SoundManager initialized. backend=qt-worker+bgm-process
+2026-08-21 10:21:01.099 [session=000417] [DEBUG] [MainThread] [SoundManager] 볼륨 설정: 14%
+2026-08-21 10:21:01.100 [session=000417] [INFO] [MainThread] [INIT] 설정 파일 볼륨 적용: 14% (muted)
+2026-08-21 10:21:01.102 [session=000417] [INFO] [MainThread] ViewManager에 SoundManager 참조 설정 완료
+2026-08-21 10:21:01.107 [session=000417] [INFO] [MainThread] [SoundManager] 오디오 keepalive warm-up 생략: DENTIUM_AUDIO_KEEPALIVE=1에서만 활성
+2026-08-21 10:21:01.242 [session=000417] [INFO] [Dummy-6] [SoundManager] HDMI 오디오 장치 선택: Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:01.243 [session=000417] [INFO] [Dummy-6] [SoundManager] QtMultimedia worker initialized thread=QtAudioWorkerThread, device=Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:01.243 [session=000417] [DEBUG] [Dummy-6] [SoundManager] 워커 볼륨 설정: 50%
+2026-08-21 10:21:01.244 [session=000417] [INFO] [MainThread] 버튼 클릭 사운드 warm-up 완료: button0.wav
+2026-08-21 10:21:01.244 [session=000417] [DEBUG] [Dummy-6] [SoundManager] 워커 볼륨 설정: 14%
+2026-08-21 10:21:01.245 [session=000417] [INFO] [MainThread] ✅ SoundManager 초기화 완료
+2026-08-21 10:21:01.246 [session=000417] [DEBUG] [Dummy-6] [SoundManager] 워커 볼륨 설정: 0%
+2026-08-21 10:21:01.246 [session=000417] [INFO] [MainThread] SoundManager worker ready. device=Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:01.247 [session=000417] [INFO] [Dummy-6] [AUDIO_DIAG] cached effect created device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:01.248 [session=000417] [INFO] [MainThread] [SoundManager] BGM 프로세스 started
+2026-08-21 10:21:01.248 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect status status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:01.275 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:01.568 [session=000417] [INFO] [MainThread] [Logger] Session 000417 opened: /home/dentium/robot_GUIs/log/log_session_000417_20260821_102046.log
+2026-08-21 10:21:01.567 [session=000417] [INFO] [MainThread] [BGM_PROCESS] HDMI 오디오 장치 선택: Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:01.570 [session=000417] [INFO] [MainThread] [BGM_PROCESS] initialized pid=3666, device=Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:01.571 [session=000417] [INFO] [MainThread] [SoundManager] BGM 프로세스 ready: pid=3666, device=Built-in Audio Digital Stereo (HDMI)
+2026-08-21 10:21:03.324 [session=000417] [INFO] [MainThread] SettingContentWidget 초기화 완료 (상세 화면 lazy 생성)
+2026-08-21 10:21:03.348 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:03.349 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:03.358 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 생성 단계 지연: system_content, 82.4ms, steps: import_class=27.4ms, construct=22.8ms, replace_placeholder=21.5ms, fixed_scale_skip=0.0ms, created_hooks=10.6ms
+2026-08-21 10:21:03.360 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 lazy 생성 지연: system_content, 83.9ms
+2026-08-21 10:21:03.362 [session=000417] [WARNING] [MainThread] [PERF] 일반 설정 콘텐츠 prewarm 지연: 85.3ms
+2026-08-21 10:21:03.363 [session=000417] [INFO] [MainThread] 일반 설정 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:05.415 [session=000417] [WARNING] [MainThread] [PERF] SettingDetailWidget_Network.__init__ 지연: 136.5ms, steps: imports=44.9ms, base_setup=17.1ms, state_timers=2.4ms, wifi_power_controls=2.1ms, dashboard_panel=5.0ms, saved_network_list=31.7ms, scanned_network_list=24.9ms
+2026-08-21 10:21:05.460 [session=000417] [WARNING] [MainThread] [PERF] SettingContentWidget page 생성 지연: page=network, 182.0ms, steps: construct_and_signals=138.7ms, replace_placeholder=42.9ms, fixed_scale_skip=0.0ms
+2026-08-21 10:21:05.465 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:05.465 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:05.469 [session=000417] [WARNING] [MainThread] [PERF] 시스템 상세 콘텐츠 prewarm 지연: 191.0ms, pages=network
+2026-08-21 10:21:05.470 [session=000417] [INFO] [MainThread] 네트워크 설정 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:06.126 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary:
+2026-08-21 10:21:06.127 [session=000417] [INFO] [MainThread]  - Raw networks from scan: 1
+2026-08-21 10:21:06.127 [session=000417] [INFO] [MainThread]  - Unique SSIDs to display: 1
+2026-08-21 10:21:06.141 [session=000417] [INFO] [MainThread]  - Connected networks (top): 1
+2026-08-21 10:21:06.142 [session=000417] [INFO] [MainThread]  - Disconnected networks: 0
+2026-08-21 10:21:06.174 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi, SIGNAL: 75
+2026-08-21 10:21:06.300 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:06.306 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:06.307 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary:
+2026-08-21 10:21:06.307 [session=000417] [INFO] [MainThread]  - Raw networks from scan: 12
+2026-08-21 10:21:06.308 [session=000417] [INFO] [MainThread]  - Unique SSIDs to display: 12
+2026-08-21 10:21:06.308 [session=000417] [INFO] [MainThread]  - Connected networks (top): 0
+2026-08-21 10:21:06.308 [session=000417] [INFO] [MainThread]  - Disconnected networks: 12
+2026-08-21 10:21:06.369 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi, SIGNAL: 75
+2026-08-21 10:21:06.392 [session=000417] [DEBUG] [MainThread] SSID: robot_cam, SIGNAL: 100
+2026-08-21 10:21:06.420 [session=000417] [DEBUG] [MainThread] SSID: robot_cam5G, SIGNAL: 95
+2026-08-21 10:21:06.437 [session=000417] [DEBUG] [MainThread] SSID: DooHyun_Dev, SIGNAL: 92
+2026-08-21 10:21:06.469 [session=000417] [DEBUG] [MainThread] SSID: [LG_AirPurifier]a63c, SIGNAL: 82
+2026-08-21 10:21:06.495 [session=000417] [DEBUG] [MainThread] SSID: iptime, SIGNAL: 74
+2026-08-21 10:21:06.522 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi_6F, SIGNAL: 64
+2026-08-21 10:21:06.548 [session=000417] [DEBUG] [MainThread] SSID: iptime5G, SIGNAL: 62
+2026-08-21 10:21:06.562 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi_5F, SIGNAL: 59
+2026-08-21 10:21:06.601 [session=000417] [DEBUG] [MainThread] SSID: [LG_AirPurifier]47de, SIGNAL: 59
+2026-08-21 10:21:06.621 [session=000417] [DEBUG] [MainThread] SSID: DIRECT-23-HP OfficeJet Pro 9010, SIGNAL: 44
+2026-08-21 10:21:06.651 [session=000417] [DEBUG] [MainThread] SSID: [LG_AirPurifier]dca4, SIGNAL: 40
+2026-08-21 10:21:06.652 [session=000417] [WARNING] [MainThread] [PERF] 네트워크 리스트 위젯 생성 배치 지연: 45.2ms
+2026-08-21 10:21:06.680 [session=000417] [DEBUG] [MainThread] SSID: Hanwhahipcs2G, SIGNAL: 22
+2026-08-21 10:21:06.976 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=2, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:06.997 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.02s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:06.998 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:07.001 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=3, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:07.582 [session=000417] [WARNING] [MainThread] [PERF] SettingContentWidget page 생성 지연: page=info, 305.6ms, steps: construct_and_signals=181.9ms, replace_placeholder=40.2ms, fixed_scale=75.4ms, page_layout=8.1ms
+2026-08-21 10:21:07.586 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:07.587 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:07.590 [session=000417] [WARNING] [MainThread] [PERF] 시스템 상세 콘텐츠 prewarm 지연: 314.2ms, pages=info
+2026-08-21 10:21:07.592 [session=000417] [INFO] [MainThread] 시스템 정보 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:08.412 [session=000417] [INFO] [MainThread] MonitorContentWidget 초기화 완료
+2026-08-21 10:21:08.468 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:08.468 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:08.470 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 생성 단계 지연: monitor_content, 194.1ms, steps: import_class=14.7ms, construct=122.0ms, replace_placeholder=25.1ms, fixed_scale=29.4ms, created_hooks=2.9ms
+2026-08-21 10:21:08.472 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 lazy 생성 지연: monitor_content, 195.7ms
+2026-08-21 10:21:08.473 [session=000417] [WARNING] [MainThread] [PERF] 모니터링 콘텐츠 prewarm 지연: 196.8ms
+2026-08-21 10:21:08.474 [session=000417] [INFO] [MainThread] 모니터링 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:08.494 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 동일 네트워크 목록 - UI 재생성 생략
+2026-08-21 10:21:08.495 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 동일 네트워크 목록 - UI 재생성 생략
+2026-08-21 10:21:09.792 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:09.799 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:09.800 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:09.806 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:09.827 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:09.830 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:09.831 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:09.831 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:09.832 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:09.844 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:09.870 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi, SIGNAL: 77
+2026-08-21 10:21:10.311 [session=000417] [INFO] [MainThread] 배터리 그래프 위젯 초기화 완료
+2026-08-21 10:21:10.319 [session=000417] [INFO] [MainThread] 배터리 이력 위젯 초기화 완료
+2026-08-21 10:21:10.344 [session=000417] [INFO] [MainThread] 배터리 이력 콘텐츠 prewarm 완료: 68.8ms
+2026-08-21 10:21:10.345 [session=000417] [INFO] [MainThread] 배터리 이력 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:11.278 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:12.374 [session=000417] [WARNING] [MainThread] [PERF] 문제 진단 콘텐츠 prewarm 지연: 95.6ms
+2026-08-21 10:21:12.378 [session=000417] [INFO] [MainThread] 문제 진단 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:13.364 [session=000417] [INFO] [MainThread] CallBellContentWidget 초기화 완료
+2026-08-21 10:21:13.430 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:13.432 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:13.432 [session=000417] [INFO] [MainThread] 키보드 매니저가 CallBellContentWidget에 연결되었습니다.
+2026-08-21 10:21:13.435 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 생성 단계 지연: callbell_content, 157.6ms, steps: import_class=11.7ms, construct=76.1ms, replace_placeholder=37.7ms, fixed_scale=26.5ms, created_hooks=5.5ms
+2026-08-21 10:21:13.436 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 lazy 생성 지연: callbell_content, 159.0ms
+2026-08-21 10:21:13.437 [session=000417] [WARNING] [MainThread] [PERF] 호출벨 관리 콘텐츠 prewarm 지연: 160.0ms
+2026-08-21 10:21:13.439 [session=000417] [INFO] [MainThread] 호출벨 관리 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:13.444 [session=000417] [INFO] [MainThread] 목적지 데이터 로드 예약: 5개
+2026-08-21 10:21:13.444 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:13.445 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] ID=64012cd7, 신규=False
+2026-08-21 10:21:13.445 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 시작: bell_id=64012cd7
+2026-08-21 10:21:13.457 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 완료: bell_id=64012cd7
+2026-08-21 10:21:13.465 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] CallBellItem 생성 완료
+2026-08-21 10:21:13.465 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 시그널 연결 완료
+2026-08-21 10:21:13.466 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 레이아웃에 위젯 추가 완료
+2026-08-21 10:21:13.466 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 기존 호출벨 로드 (하이라이트 없음)
+2026-08-21 10:21:13.466 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 완료
+2026-08-21 10:21:13.466 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] ID=64132cd7, 신규=False
+2026-08-21 10:21:13.467 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 시작: bell_id=64132cd7
+2026-08-21 10:21:13.473 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 완료: bell_id=64132cd7
+2026-08-21 10:21:13.481 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] CallBellItem 생성 완료
+2026-08-21 10:21:13.482 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 시그널 연결 완료
+2026-08-21 10:21:13.482 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 레이아웃에 위젯 추가 완료
+2026-08-21 10:21:13.483 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 기존 호출벨 로드 (하이라이트 없음)
+2026-08-21 10:21:13.483 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 완료
+2026-08-21 10:21:13.483 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:13.483 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:13.483 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:13.483 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:13.484 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:13.501 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] ID=64252cd7, 신규=False
+2026-08-21 10:21:13.502 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 시작: bell_id=64252cd7
+2026-08-21 10:21:13.507 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 완료: bell_id=64252cd7
+2026-08-21 10:21:13.512 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] CallBellItem 생성 완료
+2026-08-21 10:21:13.512 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 시그널 연결 완료
+2026-08-21 10:21:13.513 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 레이아웃에 위젯 추가 완료
+2026-08-21 10:21:13.513 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 기존 호출벨 로드 (하이라이트 없음)
+2026-08-21 10:21:13.513 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 완료
+2026-08-21 10:21:13.513 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] ID=64372cd7, 신규=False
+2026-08-21 10:21:13.514 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 시작: bell_id=64372cd7
+2026-08-21 10:21:13.519 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 완료: bell_id=64372cd7
+2026-08-21 10:21:13.524 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] CallBellItem 생성 완료
+2026-08-21 10:21:13.526 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 시그널 연결 완료
+2026-08-21 10:21:13.527 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 레이아웃에 위젯 추가 완료
+2026-08-21 10:21:13.527 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 기존 호출벨 로드 (하이라이트 없음)
+2026-08-21 10:21:13.528 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 완료
+2026-08-21 10:21:13.538 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] ID=64492cd7, 신규=False
+2026-08-21 10:21:13.539 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 시작: bell_id=64492cd7
+2026-08-21 10:21:13.544 [session=000417] [DEBUG] [MainThread] [CallBellItem.__init__] 생성 완료: bell_id=64492cd7
+2026-08-21 10:21:13.549 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] CallBellItem 생성 완료
+2026-08-21 10:21:13.550 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 시그널 연결 완료
+2026-08-21 10:21:13.550 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 레이아웃에 위젯 추가 완료
+2026-08-21 10:21:13.550 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 기존 호출벨 로드 (하이라이트 없음)
+2026-08-21 10:21:13.550 [session=000417] [DEBUG] [MainThread] [CallBellContentWidget.add_bell] 완료
+2026-08-21 10:21:13.553 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:13.553 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:15.202 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:15.205 [session=000417] [DEBUG] [MainThread] [LockByTouch] [TOUCH LOCK] 터치 입력 감지 — req_lock(True)
+2026-08-21 10:21:15.206 [session=000417] [DEBUG] [RestApiThread] [LockByTouch] [REST API] SendRobotLock(True)
+2026-08-21 10:21:15.219 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:15.237 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_ROBOT_LOCK, status_code: 200
+2026-08-21 10:21:15.238 [session=000417] [DEBUG] [ThreadPoolExecutor-5_0] 백그라운드 파싱 대상이 아닌 REST 태그: REST_API_TAG.POST_ROBOT_LOCK
+2026-08-21 10:21:15.240 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:15.241 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:15.260 [session=000417] [DEBUG] [MainThread] [LockByTouch] set_view_lock(True), reason=screen context changed — 현재 상태: manual=False, cond=False, touch=True, slam=False
+2026-08-21 10:21:15.261 [session=000417] [DEBUG] [RestApiThread] [LockByTouch] [REST API] SendRobotLock(True)
+2026-08-21 10:21:15.262 [session=000417] [INFO] [MainThread] [LockByTouch] Idle timeout updated: 60 seconds
+2026-08-21 10:21:15.279 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_ROBOT_LOCK, status_code: 200
+2026-08-21 10:21:15.280 [session=000417] [DEBUG] [ThreadPoolExecutor-5_1] 백그라운드 파싱 대상이 아닌 REST 태그: REST_API_TAG.POST_ROBOT_LOCK
+2026-08-21 10:21:15.467 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_LOCKED
+2026-08-21 10:21:15.611 [session=000417] [INFO] [MainThread] 키보드 매니저가 ScreenContentHost에 연결되었습니다.
+2026-08-21 10:21:15.612 [session=000417] [INFO] [MainThread] 키보드 매니저가 RobotContentWidget에 전달되었습니다.
+2026-08-21 10:21:15.612 [session=000417] [INFO] [MainThread] 키보드 매니저가 CallBellContentWidget에 연결되었습니다.
+2026-08-21 10:21:15.617 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 생성 단계 지연: sequential_move_content, 221.7ms, steps: import_class=7.3ms, construct=133.4ms, replace_placeholder=73.0ms, created_hooks=6.4ms
+2026-08-21 10:21:15.619 [session=000417] [WARNING] [MainThread] [PERF] 화면형 콘텐츠 lazy 생성 지연: sequential_move_content, 223.4ms
+2026-08-21 10:21:15.620 [session=000417] [WARNING] [MainThread] [PERF] 순차 이동 콘텐츠 prewarm 지연: 224.7ms
+2026-08-21 10:21:15.622 [session=000417] [INFO] [MainThread] 순차 이동 콘텐츠 idle prewarm 완료
+2026-08-21 10:21:15.630 [session=000417] [DEBUG] [MainThread] 🔊 버튼 클릭 소리 재생: button0.wav
+2026-08-21 10:21:15.632 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect request status=Ready, pool_size=1, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:15.632 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect play status=Ready, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:15.646 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=True, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:15.669 [session=000417] [INFO] [MainThread] 순차 이동 설정 로드 완료: /home/dentium/robot_GUIs/app/config/sequential_move.json
+2026-08-21 10:21:15.673 [session=000417] [INFO] [MainThread] 목적지 데이터 로드 예약: 5개
+2026-08-21 10:21:15.709 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=False, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:15.756 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:15.756 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:15.931 [session=000417] [INFO] [ThreadPoolExecutor-8_0] 순차 이동 설정 저장 완료: /home/dentium/robot_GUIs/app/config/sequential_move.json
+2026-08-21 10:21:15.968 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:15.969 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:15.985 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:15.986 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:16.063 [session=000417] [INFO] [MainThread] 네트워크 설정 콘텐츠 표시
+2026-08-21 10:21:16.109 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 동일 네트워크 목록 - UI 재생성 생략
+2026-08-21 10:21:16.109 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 동일 네트워크 목록 - UI 재생성 생략
+2026-08-21 10:21:16.120 [session=000417] [INFO] [MainThread] 화면형 메뉴 콘텐츠 전체 화면 표시: system_network
+2026-08-21 10:21:16.131 [session=000417] [DEBUG] [MainThread] 🔊 버튼 클릭 소리 재생: button0.wav
+2026-08-21 10:21:16.133 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect request status=Ready, pool_size=1, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.133 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect play status=Ready, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.135 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=True, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.146 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:16.199 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=False, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.288 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:16.831 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:16.835 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:16.840 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:16.841 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:16.852 [session=000417] [DEBUG] [MainThread] [LockByTouch] set_view_lock(False), reason=screen context changed — 현재 상태: manual=False, cond=False, touch=True, slam=False
+2026-08-21 10:21:16.853 [session=000417] [DEBUG] [MainThread] [LockByTouch] [STILL LOCKED] 해제 불가 — manual=False, cond=False, touch=True, view=False, slam=False, bypass=False
+2026-08-21 10:21:16.853 [session=000417] [INFO] [MainThread] [LockByTouch] Idle timeout disabled
+2026-08-21 10:21:16.854 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_CALLBELL_SYNC, url=http://localhost:8080/robot_ec2b/events/callbell, timeout=None
+2026-08-21 10:21:16.856 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connect attempt tag=SSE_CALLBELL_SYNC, reconnect=0, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:21:16.862 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:16.863 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:16.864 [session=000417] [INFO] [MainThread] 화면형 메뉴 콘텐츠 닫기 완료
+2026-08-21 10:21:16.864 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:16.869 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connected tag=SSE_CALLBELL_SYNC, status=200, reason=OK, elapsed=0.01s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:21:16.872 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_MD_SET_BREAK, url=http://localhost:8080/robot_ec2b/events/md/set_brake, timeout=None
+2026-08-21 10:21:16.871 [session=000417] [DEBUG] [MainThread] [LockByTouch] set_view_lock(True), reason=screen context changed — 현재 상태: manual=False, cond=False, touch=True, slam=False
+2026-08-21 10:21:16.873 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] event received tag=SSE_CALLBELL_SYNC, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/callbell, data={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:21:16.875 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connect attempt tag=SSE_MD_SET_BREAK, reconnect=0, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:21:16.876 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [CALLBELL SSE] 목록 변경 신호 감지: url=http://localhost:8080/robot_ec2b/events/callbell, raw={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:21:16.879 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:16.885 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:16.885 [session=000417] [DEBUG] [RestApiThread] [LockByTouch] [REST API] SendRobotLock(True)
+2026-08-21 10:21:16.880 [session=000417] [INFO] [MainThread] [LockByTouch] Idle timeout updated: 60 seconds
+2026-08-21 10:21:16.907 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_ROBOT_LOCK, status_code: 200
+2026-08-21 10:21:16.908 [session=000417] [DEBUG] [ThreadPoolExecutor-5_1] 백그라운드 파싱 대상이 아닌 REST 태그: REST_API_TAG.POST_ROBOT_LOCK
+2026-08-21 10:21:16.922 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connected tag=SSE_MD_SET_BREAK, status=200, reason=OK, elapsed=0.05s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:21:16.944 [session=000417] [DEBUG] [MainThread] 🔊 버튼 클릭 소리 재생: button0.wav
+2026-08-21 10:21:16.946 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect request status=Ready, pool_size=1, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.946 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect play status=Ready, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.948 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=True, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:16.957 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:16.966 [session=000417] [INFO] [MainThread] 호출벨 목록 변경 SSE 수신 - REST API 재조회: payload={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": 
+2026-08-21 10:21:16.967 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:16.967 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:16.967 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:16.968 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:16.969 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:16.969 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:16.970 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:16.970 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:16.970 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:16.971 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:16.971 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:16.972 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:16.972 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:16.973 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:16.974 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:17.003 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=3, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:17.020 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=False, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:17.029 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.03s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:17.029 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:17.031 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=4, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:17.059 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:17.059 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:17.060 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:17.061 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:17.061 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:17.062 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:17.062 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:17.062 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:17.063 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:17.063 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:17.087 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:17.089 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:17.906 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:17.907 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 194
+2026-08-21 10:21:17.909 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:17.912 [session=000417] [INFO] [MainThread] User Input Detected: Event Type 2
+2026-08-21 10:21:17.921 [session=000417] [DEBUG] [MainThread] [LockByTouch] set_view_lock(False), reason=screen context changed — 현재 상태: manual=False, cond=False, touch=True, slam=False
+2026-08-21 10:21:17.923 [session=000417] [DEBUG] [MainThread] [LockByTouch] [STILL LOCKED] 해제 불가 — manual=False, cond=False, touch=True, view=False, slam=False, bypass=False
+2026-08-21 10:21:17.927 [session=000417] [INFO] [MainThread] [LockByTouch] Idle timeout disabled
+2026-08-21 10:21:17.968 [session=000417] [DEBUG] [MainThread] 🔊 버튼 클릭 소리 재생: button0.wav
+2026-08-21 10:21:17.970 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect request status=Ready, pool_size=1, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:17.970 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect play status=Ready, device=Built-in Audio Digital Stereo (HDMI), path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:17.973 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=True, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:18.037 [session=000417] [DEBUG] [Dummy-6] [AUDIO_DIAG] cached effect playing is_playing=False, status=Ready, path=/home/dentium/robot_GUIs/app/resources/sounds/sounds/button0.wav
+2026-08-21 10:21:19.170 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:19.173 [session=000417] [INFO] [MainThread] WiFi Scan Results Summary: 재생성 중 메타 갱신 지연 적용
+2026-08-21 10:21:19.783 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:19.785 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:19.787 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:19.794 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:19.797 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:19.798 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:19.800 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:19.800 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:19.801 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:19.802 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:19.803 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:19.803 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:19.805 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:19.806 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:19.807 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:19.808 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:19.812 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:19.814 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_started master_base_url=http://127.0.0.1:5051
+2026-08-21 10:21:19.840 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_succeeded master_base_url=http://127.0.0.1:5051 item_count=3
+2026-08-21 10:21:19.846 [session=000417] [DEBUG] [MainThread] SSID: Dentium_wifi, SIGNAL: 75
+2026-08-21 10:21:19.857 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=selection_get, url=http://127.0.0.1:5051/api/voice-event-settings/background-music?robot_id=robot_ec2b
+2026-08-21 10:21:19.858 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=resolved_get, url=http://127.0.0.1:5051/api/voice-event-settings/resolved?robot_id=robot_ec2b
+2026-08-21 10:21:19.890 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_RESOLVED_BACKGROUND_MUSIC, status_code: 200
+2026-08-21 10:21:19.893 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_BACKGROUND_MUSIC_SETTING, status_code: 200
+2026-08-21 10:21:21.275 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:23.215 [session=000417] [DEBUG] [MainThread] [LockByTouch] [TIMER] 터치 락 타이머 만료 — touch_lock=False
+2026-08-21 10:21:23.217 [session=000417] [DEBUG] [MainThread] [LockByTouch] [UNLOCK] req_lock(False) — manual=False, cond=False, touch=False, view=False, slam=False, bypass=False
+2026-08-21 10:21:23.218 [session=000417] [DEBUG] [RestApiThread] [LockByTouch] [REST API] SendRobotLock(False)
+2026-08-21 10:21:23.230 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_ROBOT_LOCK, status_code: 200
+2026-08-21 10:21:23.231 [session=000417] [DEBUG] [ThreadPoolExecutor-5_0] 백그라운드 파싱 대상이 아닌 REST 태그: REST_API_TAG.POST_ROBOT_LOCK
+2026-08-21 10:21:23.400 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_MANUAL
+2026-08-21 10:21:24.830 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
+2026-08-21 10:21:26.277 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:27.033 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=4, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:27.048 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.02s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:27.048 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:27.050 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=5, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:29.784 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:29.788 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:29.789 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:29.792 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:29.799 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:29.803 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:29.805 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:29.806 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:29.808 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:29.808 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:29.811 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:29.811 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:29.811 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:29.812 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:29.812 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:29.812 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:29.819 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:31.275 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:36.275 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:37.051 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=5, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:37.059 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.01s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:37.059 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:37.061 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=6, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:39.778 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:39.789 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:39.792 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:39.796 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:39.819 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:39.820 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:39.826 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:39.827 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:39.828 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:39.829 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:39.829 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:39.829 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:39.830 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:39.830 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:39.830 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:39.831 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:39.831 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:41.276 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:46.277 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:47.062 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=6, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:47.082 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.02s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:47.084 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:47.085 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=7, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:49.778 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:49.795 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:49.797 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:49.800 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:49.813 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:49.814 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:49.822 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:49.823 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:49.824 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:49.826 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:49.827 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:49.827 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:49.828 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:49.828 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:49.830 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:49.832 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:49.834 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:49.863 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_MANUAL
+2026-08-21 10:21:51.276 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:52.314 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
+2026-08-21 10:21:53.791 [session=000417] [INFO] [MainThread] 🔋 충전 시작 - CPU 절약 모드 진입
+2026-08-21 10:21:53.793 [session=000417] [INFO] [MainThread] ⏳ ChargingView 지연 생성 시작
+2026-08-21 10:21:53.825 [session=000417] [INFO] [MainThread] ✓ ChargingView 생성 완료
+2026-08-21 10:21:53.859 [session=000417] [INFO] [MainThread] ChargingView 배터리 시그널 연결 완료
+2026-08-21 10:21:53.860 [session=000417] [INFO] [MainThread] [ChargingView] 충전 시작 - 애니메이션 활성화
+2026-08-21 10:21:53.861 [session=000417] [INFO] [MainThread] 스피커 idle 대기 후 사운드 명령 전송 예정: command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:21:53.887 [session=000417] [INFO] [MainThread] 스피커 상태 조회 API 호출: command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:21:53.889 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_SPEAKER_STATUS, url: http://localhost:8080/robot_ec2b/speaker/status
+2026-08-21 10:21:53.890 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_SPEAKER_STATUS, timeout: 30000ms
+2026-08-21 10:21:53.898 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_SPEAKER_STATUS, status_code: 200
+2026-08-21 10:21:53.915 [session=000417] [INFO] [MainThread] 스피커 상태 조회 응답: status=idle, command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:21:53.918 [session=000417] [INFO] [MainThread] 스피커 idle 확인 - 음성 재생 API 호출: command=tts:충전을 시작할게요., remaining_count=0
+2026-08-21 10:21:53.920 [session=000417] [INFO] [MainThread] 음성 재생 API 호출 완료: command=tts:충전을 시작할게요.
+2026-08-21 10:21:53.921 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 직전: url=http://localhost:8080/robot_ec2b/speaker/sound_command, payload={"data": "tts:\ucda9\uc804\uc744 \uc2dc\uc791\ud560\uac8c\uc694."}, timeout=30000ms, pending_before=0
+2026-08-21 10:21:53.921 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 등록 완료: url=http://localhost:8080/robot_ec2b/speaker/sound_command, reply_id=281470413779712, pending_after=1
+2026-08-21 10:21:53.933 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_SOUND_COMMAND, status_code: 200
+2026-08-21 10:21:53.933 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 성공: status=200, pending→0, response={"ok":true,"payload":{"data":"tts:충전을 시작할게요."}}
+2026-08-21 10:21:53.947 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_CHARGING
+2026-08-21 10:21:56.278 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:21:57.088 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=7, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:57.098 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.01s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:57.099 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:57.103 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=8, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:21:57.807 [session=000417] [INFO] [MainThread] 🔋 충전 종료 - 정상 모드 복귀
+2026-08-21 10:21:57.815 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
+2026-08-21 10:21:57.850 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_CALLBELL_SYNC, url=http://localhost:8080/robot_ec2b/events/callbell, timeout=None
+2026-08-21 10:21:57.851 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connect attempt tag=SSE_CALLBELL_SYNC, reconnect=0, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:21:57.856 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:57.856 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:57.857 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:57.857 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_MD_SET_BREAK, url=http://localhost:8080/robot_ec2b/events/md/set_brake, timeout=None
+2026-08-21 10:21:57.867 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connect attempt tag=SSE_MD_SET_BREAK, reconnect=0, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:21:57.874 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:57.894 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connected tag=SSE_CALLBELL_SYNC, status=200, reason=OK, elapsed=0.04s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:21:57.895 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:57.903 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connected tag=SSE_MD_SET_BREAK, status=200, reason=OK, elapsed=0.04s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:21:57.904 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] event received tag=SSE_CALLBELL_SYNC, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/callbell, data={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:21:57.905 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [CALLBELL SSE] 목록 변경 신호 감지: url=http://localhost:8080/robot_ec2b/events/callbell, raw={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:21:57.905 [session=000417] [INFO] [MainThread] [ChargingView] 충전 중단
+2026-08-21 10:21:57.931 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:57.932 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:57.933 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:57.934 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:57.935 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:57.935 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:57.935 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:57.935 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:57.936 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:57.936 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:57.937 [session=000417] [INFO] [MainThread] 호출벨 목록 변경 SSE 수신 - REST API 재조회: payload={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": 
+2026-08-21 10:21:57.937 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:57.937 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:57.938 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:57.942 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:57.943 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:57.961 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:57.961 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:57.962 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:57.962 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:57.962 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:57.962 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:57.962 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:57.963 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:57.964 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:57.964 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:59.778 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:21:59.793 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:21:59.806 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:21:59.810 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:21:59.816 [session=000417] [INFO] [MainThread] 홈 위치 수신: (3.12, 1.10)
+2026-08-21 10:21:59.817 [session=000417] [INFO] [MainThread] 홈 위치 표시 업데이트: (894.0, 100.9)
+2026-08-21 10:21:59.820 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:21:59.823 [session=000417] [INFO] [ThreadPoolExecutor-5_1] 호출벨 데이터 수신: 5개
+2026-08-21 10:21:59.825 [session=000417] [INFO] [MainThread]   홈 위치 서버 → 픽셀 좌표로 변환 및 UI 업데이트: (894.0, 100.9)
+2026-08-21 10:21:59.829 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:21:59.829 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:21:59.829 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:21:59.830 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:21:59.830 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:21:59.830 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:21:59.831 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:21:59.831 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:21:59.831 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:21:59.831 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:21:59.832 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:21:59.835 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_started master_base_url=http://127.0.0.1:5051
+2026-08-21 10:21:59.878 [session=000417] [INFO] [browser-music-sync_0] [BROWSER_MUSIC_SYNC] event=catalog_fetch_succeeded master_base_url=http://127.0.0.1:5051 item_count=3
+2026-08-21 10:21:59.893 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=selection_get, url=http://127.0.0.1:5051/api/voice-event-settings/background-music?robot_id=robot_ec2b
+2026-08-21 10:21:59.894 [session=000417] [INFO] [RestApiThread] [REST API] 배경 음악 GET 전송: operation=resolved_get, url=http://127.0.0.1:5051/api/voice-event-settings/resolved?robot_id=robot_ec2b
+2026-08-21 10:21:59.911 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_BACKGROUND_MUSIC_SETTING, status_code: 200
+2026-08-21 10:21:59.919 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_RESOLVED_BACKGROUND_MUSIC, status_code: 200
+2026-08-21 10:22:00.002 [session=000417] [INFO] [ThreadPoolExecutor-8_0] 순차 이동 설정 저장 완료: /home/dentium/robot_GUIs/app/config/sequential_move.json
+2026-08-21 10:22:01.276 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:22:01.947 [session=000417] [INFO] [MainThread] 🔋 충전 시작 - CPU 절약 모드 진입
+2026-08-21 10:22:01.980 [session=000417] [INFO] [MainThread] [ChargingView] 충전 시작 - 애니메이션 활성화
+2026-08-21 10:22:01.982 [session=000417] [INFO] [MainThread] 스피커 idle 대기 후 사운드 명령 전송 예정: command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:22:02.032 [session=000417] [INFO] [MainThread] 스피커 상태 조회 API 호출: command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:22:02.034 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_SPEAKER_STATUS, url: http://localhost:8080/robot_ec2b/speaker/status
+2026-08-21 10:22:02.035 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_SPEAKER_STATUS, timeout: 30000ms
+2026-08-21 10:22:02.038 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_SPEAKER_STATUS, status_code: 200
+2026-08-21 10:22:02.040 [session=000417] [INFO] [MainThread] 스피커 상태 조회 응답: status=idle, command=tts:충전을 시작할게요., pending_count=1
+2026-08-21 10:22:02.040 [session=000417] [INFO] [MainThread] 스피커 idle 확인 - 음성 재생 API 호출: command=tts:충전을 시작할게요., remaining_count=0
+2026-08-21 10:22:02.041 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 직전: url=http://localhost:8080/robot_ec2b/speaker/sound_command, payload={"data": "tts:\ucda9\uc804\uc744 \uc2dc\uc791\ud560\uac8c\uc694."}, timeout=30000ms, pending_before=0
+2026-08-21 10:22:02.041 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 전송 등록 완료: url=http://localhost:8080/robot_ec2b/speaker/sound_command, reply_id=281470416251456, pending_after=1
+2026-08-21 10:22:02.042 [session=000417] [INFO] [MainThread] 음성 재생 API 호출 완료: command=tts:충전을 시작할게요.
+2026-08-21 10:22:02.059 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.POST_SOUND_COMMAND, status_code: 200
+2026-08-21 10:22:02.060 [session=000417] [INFO] [RestApiThread] [REST API] 음성 재생 POST 성공: status=200, pending→0, response={"ok":true,"payload":{"data":"tts:충전을 시작할게요."}}
+2026-08-21 10:22:02.304 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_CHARGING
+2026-08-21 10:22:05.953 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_MANUAL
+2026-08-21 10:22:05.960 [session=000417] [INFO] [MainThread] 🔋 충전 종료 - 정상 모드 복귀
+2026-08-21 10:22:06.002 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_CALLBELL_SYNC, url=http://localhost:8080/robot_ec2b/events/callbell, timeout=None
+2026-08-21 10:22:06.003 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connect attempt tag=SSE_CALLBELL_SYNC, reconnect=0, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:22:06.006 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:22:06.013 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:22:06.026 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:22:06.027 [session=000417] [INFO] [RestApiThread] [SSE_DIAG] start requested tag=SSE_MD_SET_BREAK, url=http://localhost:8080/robot_ec2b/events/md/set_brake, timeout=None
+2026-08-21 10:22:06.028 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connect attempt tag=SSE_MD_SET_BREAK, reconnect=0, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:22:06.038 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:22:06.040 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:22:06.042 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] connected tag=SSE_CALLBELL_SYNC, status=200, reason=OK, elapsed=0.04s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/callbell
+2026-08-21 10:22:06.043 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [SSE_DIAG] event received tag=SSE_CALLBELL_SYNC, count=1, event=message, id=None, url=http://localhost:8080/robot_ec2b/events/callbell, data={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:22:06.046 [session=000417] [INFO] [SSE-SSE_CALLBELL_SYNC] [CALLBELL SSE] 목록 변경 신호 감지: url=http://localhost:8080/robot_ec2b/events/callbell, raw={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": \"suction\", \"destination\": \"\uc218\uc220\uc2e4\"}, \"64252cd7\": {\"name\": \"\ud638\ucd9c\ubca8 3\", \"usage\": \"suction\", \"destination\": \"\uc9c4\ub8cc\uc2e4\"}, \"64372cd7\": {\"name\": \"\ud638\ucd9c\ubca8 4\", \"usage\": \"suction\", \"destination\": \"\ucc3d\uace0\"}, \"64492cd7\": {\"...(len=685)
+2026-08-21 10:22:06.048 [session=000417] [INFO] [MainThread] [ChargingView] 충전 중단
+2026-08-21 10:22:06.056 [session=000417] [INFO] [SSE-SSE_MD_SET_BREAK] [SSE_DIAG] connected tag=SSE_MD_SET_BREAK, status=200, reason=OK, elapsed=0.03s, content_type=text/event-stream; charset=utf-8, url=http://localhost:8080/robot_ec2b/events/md/set_brake
+2026-08-21 10:22:06.071 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:22:06.072 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:22:06.073 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:22:06.073 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:22:06.073 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:22:06.074 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:22:06.074 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:22:06.075 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:22:06.075 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:22:06.076 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:22:06.077 [session=000417] [INFO] [MainThread] 호출벨 목록 변경 SSE 수신 - REST API 재조회: payload={"data": "{\"callbells\": {\"64012cd7\": {\"name\": \"\ud638\ucd9c\ubca8 1\", \"usage\": \"suction\", \"destination\": \"\ub85c\ube44\"}, \"64132cd7\": {\"name\": \"\ud638\ucd9c\ubca8 2\", \"usage\": 
+2026-08-21 10:22:06.078 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:22:06.078 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:22:06.079 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:22:06.086 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:22:06.087 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:22:06.125 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:22:06.126 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:22:06.127 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:22:06.127 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:22:06.127 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:22:06.127 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:22:06.128 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:22:06.128 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:22:06.128 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:22:06.129 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:22:06.278 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:22:07.105 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connect attempt tag=SSE_BATTERY_LOW_SHUTDOWN, reconnect=8, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:22:07.125 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] connected tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, elapsed=0.02s, content_type=application/json, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:22:07.125 [session=000417] [ERROR] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] non-200 response tag=SSE_BATTERY_LOW_SHUTDOWN, status=404, reason=Not Found, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:22:07.127 [session=000417] [INFO] [SSE-SSE_BATTERY_LOW_SHUTDOWN] [SSE_DIAG] reconnect wait tag=SSE_BATTERY_LOW_SHUTDOWN, delay=10s, reconnect=9, reason=HTTP 404, url=http://localhost:8080/robot_ec2b/events/battery/low_shutdown
+2026-08-21 10:22:08.382 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
+2026-08-21 10:22:09.783 [session=000417] [DEBUG] [RestApiThread] GetCallBellFromRESTAPI 요청 시작
+2026-08-21 10:22:09.786 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 시작 - tag: REST_API_TAG.GET_CALLBELL, url: http://localhost:8080/robot_ec2b/callbell
+2026-08-21 10:22:09.786 [session=000417] [DEBUG] [RestApiThread] _get_data: 요청 전송 완료 - tag: REST_API_TAG.GET_CALLBELL, timeout: 30000ms
+2026-08-21 10:22:09.793 [session=000417] [INFO] [MainThread] model_manager set_destinations: unchanged (5 items) - emit skipped
+2026-08-21 10:22:09.828 [session=000417] [INFO] [MainThread] 홈 위치 수신: (3.12, 1.10)
+2026-08-21 10:22:09.829 [session=000417] [INFO] [MainThread] 홈 위치 표시 업데이트: (894.0, 100.9)
+2026-08-21 10:22:09.832 [session=000417] [INFO] [MainThread]   홈 위치 서버 → 픽셀 좌표로 변환 및 UI 업데이트: (894.0, 100.9)
+2026-08-21 10:22:09.838 [session=000417] [DEBUG] [RestApiThread] _handle_response 호출됨 - tag: REST_API_TAG.GET_CALLBELL, status_code: 200
+2026-08-21 10:22:09.843 [session=000417] [INFO] [RestApiThread] _handle_response (CYCLIC 정상) - tag: REST_API_TAG.GET_MASTER_IP_ADDRESS, status: 200, pending→0
+2026-08-21 10:22:09.844 [session=000417] [INFO] [ThreadPoolExecutor-5_0] 호출벨 데이터 수신: 5개
+2026-08-21 10:22:09.846 [session=000417] [INFO] [MainThread] 호출벨-목적지 동기화 완료: 5개 호출벨
+2026-08-21 10:22:09.847 [session=000417] [INFO] [MainThread] 목적지 리스트 반환: destinations=[Destination(name='로비', goal_pose=Pose(x=4.241336459631034, y=-2.361104203714551, qw=0.5097087478206948, qz=0.8603470185890456), bell=Bells(treatment='', suction='64012cd7'), idx=0, color='#e53935'), Destination(name='수술실', goal_pose=Pose(x=4.5199271819089395, y=-3.9219605026851503, qw=0.14533446519134308, qz=-0.9893825818294691), bell=Bells(treatment='', suction='64132cd7'), idx=1, color='#e53935'), Destination(name='진료실', goal_pose=Pose(x=0.11980823444488001, y=-3.735511450600503, qw=0.9963649848510123, qz=0.0851869530083222), bell=Bells(treatment='', suction='64252cd7'), idx=2, color='#e53935'), Destination(name='창고', goal_pose=Pose(x=0.2834625688692579, y=-6.793061814598156, qw=0.5257961572167338, qz=0.850610604834031), bell=Bells(treatment='', suction='64372cd7'), idx=3, color='#e53935'), Destination(name='소독실', goal_pose=Pose(x=-3.4045695907217928, y=-7.611793760201744, qw=0.546869706461766, qz=0.8372177280459497), bell=Bells(treatment='', suction='64492cd7'), idx=4, color='#e53935')]
+2026-08-21 10:22:09.847 [session=000417] [INFO] [MainThread] 호출벨 리스트 반환: callbells={'64012cd7': {'name': '호출벨 1', 'usage': 'suction', 'destination': '로비'}, '64132cd7': {'name': '호출벨 2', 'usage': 'suction', 'destination': '수술실'}, '64252cd7': {'name': '호출벨 3', 'usage': 'suction', 'destination': '진료실'}, '64372cd7': {'name': '호출벨 4', 'usage': 'suction', 'destination': '창고'}, '64492cd7': {'name': '호출벨 5', 'usage': 'suction', 'destination': '소독실'}}, robot_usages=['treatment', 'suction']
+2026-08-21 10:22:09.847 [session=000417] [INFO] [MainThread] 호출벨 리스트 로드: 5개
+2026-08-21 10:22:09.848 [session=000417] [INFO] [MainThread] 호출벨 목록 동일 - UI 재생성 생략
+2026-08-21 10:22:09.850 [session=000417] [INFO] [MainThread] 호출벨용 용도 목록 로드 요청
+2026-08-21 10:22:09.850 [session=000417] [INFO] [MainThread] 호출벨에 용도 목록 전달: 2개
+2026-08-21 10:22:09.851 [session=000417] [INFO] [MainThread] 용도 목록 로드: 2개
+2026-08-21 10:22:09.851 [session=000417] [INFO] [MainThread] 목적지 목록 로드: 5개
+2026-08-21 10:22:09.851 [session=000417] [INFO] [MainThread] 호출벨 관리에 목적지 목록 전달: 5개
+2026-08-21 10:22:09.852 [session=000417] [INFO] [MainThread] My IP : 192.168.104.212
+2026-08-21 10:22:10.027 [session=000417] [INFO] [ThreadPoolExecutor-8_0] 순차 이동 설정 저장 완료: /home/dentium/robot_GUIs/app/config/sequential_move.json
+2026-08-21 10:22:11.276 [session=000417] [INFO] [MainThread] [MAIN_THREAD_HEARTBEAT] GUI main thread alive: thread=MainThread
+2026-08-21 10:22:11.855 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_MANUAL
+2026-08-21 10:22:14.489 [session=000417] [DEBUG] [SSE-SSE_ROBOT_STATUS] SSE robot status: ROBOT_STANDBY
